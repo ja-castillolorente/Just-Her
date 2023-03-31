@@ -1,0 +1,45 @@
+Arion: No s� d�nde est�s pero vas a a salir y vas a devolverme a mi mundo de una vez...
+@sfx Lujuria.Pregunta
+@char Lujuria.Default time:1
+@printer LujuriaPrinter
+Lujuria: �Y por qu� deber�a hacer tal cosa?
+Lujuria: Que yo sepa no me has dado ning�n motivo para ello...
+Lujuria: Y ya me estoy aburriendo...
+Lujuria: �Qu� te parece si jugamos un rato?
+@choice "No perder� m�s tiempo" goto:.BranchA
+@choice �Jugar? goto:.BranchB
+@stop
+# BranchA
+@char Lujuria.Sexy time:1
+Lujuria: No seas as�, cari�o
+@printer Dialogue
+Lujuria se acerca lentamente a Arion
+@printer LujuriaPrinter
+Lujuria: S�lo ser� un momento...
+@printer Dialogue
+Arion: N-no creo que deba perder m�s tiempo...
+@char Lujuria.Pensativa time:1
+Lujuria acaricia el rostro de Arion
+@sfx Lujuria.Shinpaisinai
+@printer LujuriaPrinter
+Lujuria: No pienses en cosas sin importancia, cari�o
+@choice ... goto:Lujuria_Dialogue2-Part2.BranchA-A
+@choice "Usar el colgante" goto:Lujuria_Dialogue2-Part2.BranchA-B
+@stop
+# BranchB
+@char Lujuria.Sexy time:1
+Lujuria: As� es...
+Lujuria: Simplemente quiero jugar contigo un momento...
+@printer Dialogue
+Lujuria se acerca lentamente a Arion
+Arion: N-no creo que �sto sea lo mejor...
+@char Lujuria.Pensativa time:1
+Lujuria acaricia el rostro de Arion
+@sfx Lujuria.Shinpaisinai
+@printer LujuriaPrinter
+Lujuria: No pienses en cosas sin importancia, cari�o
+@printer Dialogue
+Arion: Pero... tengo que decirte algo...
+@choice "No hay tiempo para tus juegos" goto:Lujuria_Dialogue2-Part2.BranchB-A
+@choice "Ella es la llave..." goto:Lujuria_Dialogue2-Part2.BranchB-B
+@stop

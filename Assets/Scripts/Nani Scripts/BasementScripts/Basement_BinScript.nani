@@ -1,0 +1,20 @@
+@if Basement_hasExaminedBin==false
+@disableInteraction
+???: Parece que todo est� muy desordenado
+???: Hay muchos papeles y anotaciones tirados por el suelo, incluso la papelera est� pr�cticamente llena
+*Me acerco y cojo un papel del suelo*
+???: �Arion� 
+???: Ese nombre... me resulta bastante familiar
+@hide Dialogue
+@set Basement_hasExaminedBin=true
+@set Basement_clickedObjects=Basement_clickedObjects-1
+@enableInteraction
+@stop
+@elseif Basement_hasExaminedBin==true
+@disableInteraction
+???: Todo est� realmente desordenado�
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

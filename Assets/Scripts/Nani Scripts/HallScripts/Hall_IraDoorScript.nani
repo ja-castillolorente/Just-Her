@@ -1,0 +1,41 @@
+@if Ira_hasSpoken3Times==false&&Bath_hasTakenPendant==false
+@disableInteraction
+Arion: Hay demasiadas puertas
+Arion: Parecen estar todas cerradas menos �sta
+Arion: Echar� un vistazo
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm pasillocortado fade:1
+@goto Ira_StageIntroScript
+@stop
+@elseIf Ira_hasSpoken3Times==true&&Bath_hasTakenPendant==false
+Arion: La puerta se ha vuelto a cerrar...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf Ira_hasSpoken3Times==true&&Bath_hasTakenPendant==true&&Hall_hasEnteredIraDoor==false
+@disableInteraction
+Arion: Puede que aquí encuentre algo
+@fadeOut objectName:BlackScreen
+@wait 1
+Arion entra sin pensar y una silla vuela rápidamente hacia la puerta
+@printer IraPrinter
+Ira: ¡To-tonto!
+Ira: ¡No entres sin llamar!
+@printer Dialogue
+Arion sale totalmente sonrojado y cierra completamente la puerta
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: Creo que he visto algo… que no debería haber visto…
+@set Hall_hasEnteredIraDoor=true
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf Ira_hasSpoken3Times==true&&Bath_hasTakenPendant==true&&Hall_hasEnteredIraDoor==true
+@disableInteraction
+Arion: Mejor no entrar de nuevo ahí...  
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

@@ -1,0 +1,40 @@
+# BranchA-A
+@char Lujuria.Enfadada time:1
+Lujuria: Mira ni�o, ya me he hartado de que me faltes el respeto
+Lujuria: �Ahora s� que no volver�s nunca a ver el sol salir!
+@hide Lujuria
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-B
+@sfx Lujuria.Pregunta
+@char Lujuria.Default time:1
+Lujuria: �Ah, s�?
+Lujuria: Y cu�ntame, �qu� es eso tan importante que tienes que hacer?
+@choice "Tengo una promesa que cumplir" goto:Lujuria_Dialogue1-Part3.BranchA-B-A
+@choice "Salir de este lugar" goto:Lujuria_Dialogue1-Part3.BranchA-B-B
+@stop
+# BranchB-A
+@sfx Lujuria.Pregunta
+@char Lujuria.Sexy time:1
+Lujuria: �Seguro que quieres saberlo?
+@printer Dialogue
+Lujuria se acerca lentamente a Arion
+@printer LujuriaPrinter
+Lujuria: Lo vamos a pasar bien...
+@printer Dialogue
+Arion: Creo que mejor cambio de opini�n...
+@char Lujuria.Silueta time:1
+@printer LujuriaPrinter
+Lujuria: Oh vamos, no seas as�, cari�o...
+Lujuria: Lo pasaremos genial...
+@choice "Ella no lo quer�a" goto:Lujuria_Dialogue1-Part3.BranchB-A-A
+@choice "Eres muy repetitiva" goto:Lujuria_Dialogue1-Part3.BranchB-A-B
+@stop
+# BranchB-B
+; Esta rama lleva al mismo sitio que la rama A-B
+@goto Lujuria_Dialogue1-Part2.BranchA-B
+@stop

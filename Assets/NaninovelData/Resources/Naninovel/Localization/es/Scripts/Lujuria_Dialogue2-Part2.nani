@@ -1,0 +1,88 @@
+; Localization script for `Lujuria_Dialogue2-Part2`
+
+# 1bfc44f8
+; Lujuria: Sab�a que eras buen chico...
+Lujuria: Sabía que eras buen chico...
+# c2f8486f
+; Lujuria: Ahora s�lo cierra los ojos...
+Lujuria: Ahora sólo cierra los ojos...
+# fe7e62f9
+; Lujuria: Rel�jate...
+Lujuria: Relájate...
+# 9f317f47
+; Lujuria: Tan s�lo ser� un instante...
+Lujuria: Tan sólo será un instante...
+# 6aff30b2
+; Arion: E-ella es la llave, es ella, �verdad?
+Arion: E-ella es la llave, es ella, ¿verdad?
+# 635a31f9
+; Lujuria: ¿Cómo?
+Lujuria: ¿Cómo?
+# fd56ab03
+; Lujuria: ...
+
+# b31706b5
+; Lujuria: No importa...
+
+# bde88388
+; Lujuria: Tienes la llave, s�, pero no tienes ni idea de c�mo utilizarla
+Lujuria: Tienes la llave, sí, pero no tienes ni idea de cómo utilizarla.
+# d8083358
+; @choice "Ponerse el colgante" goto:Lujuria_Dialogue2-Part3.BranchA-B-A
+@choice "Ponerse el colgante." goto:Lujuria_Dialogue2-Part3.BranchA-B-A
+# 14444f2f
+; @choice "Sincerarse sobre ella" goto:Lujuria_Dialogue2-Part3.BranchA-B-B
+@choice "Sincerarse sobre ella." goto:Lujuria_Dialogue2-Part3.BranchA-B-B
+# 46fcaff0
+; Lujuria: Ya est�s empezando a cabrearme...
+Lujuria: Ya estás empezando a cabrearme...
+# bfc994b2
+; Lujuria: Vas a jugar conmigo o lo vas a pasar muy mal...
+
+# 77775206
+; Arion: �Sabes? Creo que aqu� nadie va a jugar a nada...
+Arion: ¿Sabes? Creo que aquí nadie va a jugar a nada...
+# f95b98ec
+; Lujuria: ��C�mo te atreves?!
+Lujuria: ¿¡Cómo te atreves!?
+# 7d0b83ee
+; @choice "Eres irritante" goto:Lujuria_Dialogue2-Part3.BranchB-A-A
+
+# 77f8021f
+; @choice "Sacar el colgante" goto:Lujuria_Dialogue2-Part3.BranchB-A-B
+
+# 238e89df
+; Arion: Ella es mi llave, desde que la conoc� fue la llave que abr�a las puertas del cambio
+Arion: Ella es mi llave, desde que la conocí fue la llave que abría mis puertas del cambio.
+# e91c28
+; Arion: Para dejar atr�s mi pasado... y enfocarme en el futuro
+Arion: Para dejar atrás mi pasado... y enfocarme en el futuro.
+# 833d6034
+; Lujuria: Pe-pero...
+
+# 7d7ed8f6
+; Lujuria: �T� no tienes futuro!
+Lujuria: ¡Tú no tienes futuro!
+# 3176290f
+; Arion: S� lo tengo...
+Arion: Sí lo tengo...
+# ef2fd764
+; Arion: He de decir que cuando despert� aqu� no recordaba nada pero...
+Arion: He de decir que cuando desperté aquí no recordaba nada pero...
+# 9e302741
+; Arion: Con ayuda de ella lo pude solucionar todo...
+
+# 8b3cd6e6
+; Arion: Y tambi�n me d� cuenta de lo que sent�a por ella en el mundo real...
+Arion: Y también me dí cuenta de lo que sentía por ella en el mundo real...
+# 214ddeb8
+; Lujuria: �N-no!
+Lujuria: ¡N-no!
+# 57fdf07f
+; Lujuria: �Espera!
+Lujuria: ¡Espera!
+# 7f5878
+; Lujuria: Yo s�lo quer�a pasar el rato contigo...
+Lujuria: Yo sólo quería pasar el rato contigo...
+# a5ebac27
+; Arion: Me he dado cuenta de que la quiero...

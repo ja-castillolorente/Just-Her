@@ -1,0 +1,97 @@
+# BranchA-A-A
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: No intentes distraerme, no evadas lo que le causaste a mam� y a padre...
+Ira: �Todo es por tu culpa! �Pagar�s por ello!
+@printer Dialogue
+Arion: ¿¡Por qu� lo mencionas!?
+@hide Ira time:1
+@hide Dialogue
+; Game Over
+@fadeOut objectName:BlackScreen
+@stopBgm salon fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-A-B
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: Intenci�n... Comida...
+Ira: �Pero c�mo explicas lo de padre?
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop
+# BranchA-B-A
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: ¡De-deja de intentar controlarme de una vez!
+Ira: ¡Me estás confundiendo! ¡Calla, calla!
+@choice "Sólo era un acto para que se sintiera mejor..." goto:Ira_Dialogue2-Part4.BranchA-B-A-A
+@choice "¡No te manipulo, inútil! Deberías de ver desde el inicio hasta el final, la intención y la consecuencia..." goto:Ira_Dialogue2-Part4.BranchA-B-A-B
+@stop
+# BranchA-B-B
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: Eres un arrogante que s�lo piensa en s� mismo, en no salir mal parado.
+Ira: Pero aqu� es todo diferente, es hora de que pagues por ello.
+@choice "�Aceptar las consecuencias? No digas tonter�as." goto:Ira_Dialogue2-Part4.BranchA-B-B-A
+@choice "Sabes que fue un accidente, intentemos salir de ésto" goto:Ira_Dialogue2-Part4.BranchA-B-B-B
+@stop
+# BranchB-A-A
+@printer Dialogue
+Arion: No todo es acierto y error, tambi�n hay intenciones y consecuencias.
+@char Ira.Default pos:"59, 25, -5.4" time:1
+@printer IraPrinter
+Ira: No intentes controlarme con tus juegos mentales. Todo fue un error, !un maravilloso error!
+@choice "T� misma acabas de decir que fue un error." goto:Ira_Dialogue2-Part4.BranchB-A-A-A
+@choice "Ni que fuera psicólogo para controlarte..." goto:Ira_Dialogue2-Part4.BranchB-A-A-B
+@stop
+# BranchB-A-B
+@printer Dialogue
+Arion: Si lo sabes todo o, m�s bien, eres yo, entonces eres una est�pida.
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx Ira.Hmm volume:0.1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+@printer IraPrinter
+Ira: �Te crees gracioso? Peque�o pir�mano, creo que no comprendes la situaci�n en la que te encuentras 
+Ira: �Te arrepentir�s si continuas as�!
+@printer Dialogue
+Arion: Eres una ignorante por atender a la consecuencia y no a la intención
+@printer IraPrinter
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: La intenci�n...
+Ira: Pero sali� mal... Padre lo sabe...
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop
+# BranchB-B-A
+@char Ira.Default pos:"59, 25, -5.4" time:1
+Ira: Crees que actuando as� tendr�s la oportunidad de salir de aqu� pero la respuesta es no...
+Ira: Eres el culpable...
+@choice "No fue mi culpa, no fue intencionado." goto:Ira_Dialogue2-Part4.BranchB-B-A-A
+@choice "�Y exactamente de que soy culpable?" goto:Ira_Dialogue2-Part4.BranchB-B-A-B
+@stop
+# BranchB-B-B
+@sfx Ira.Hmm volume:0.1
+@char Ira.Default pos:"59, 25, -5.4" time:1
+Ira: �Darme cuenta?
+Ira: Yo lo vi todo... TODO...
+Ira: Es culpa tuya, lo s�...
+@printer Dialogue
+Arion: No es culpa nuestra, ¿no recuerdas la intención?
+@printer IraPrinter
+Ira: Mam�...
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: �Eso no explica lo que le ocurri� a padre!
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop

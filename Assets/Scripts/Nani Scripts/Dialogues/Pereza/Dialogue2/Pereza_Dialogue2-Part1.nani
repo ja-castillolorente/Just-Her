@@ -1,0 +1,51 @@
+@printer PerezaPrinter
+Chica: �Eh, t�!
+Chica: �Qu� crees que... haces?
+@printer Dialogue
+Arion: Como veo que nadie viene, que t� no ayudas y que no encuentro mucha informaci�n aqu�, decid� simplemente forzar la puerta e irme...
+@sfx Pereza.Risa
+@char Pereza.Avergonzada time:1
+@printer PerezaPrinter
+Chica: Ay, Dios...
+Chica: Por lo menos eres sincero...
+@char Pereza.Default time:1
+Chica: �Por qu� no te quedas un rato m�s aqu�?
+@printer Dialogue
+Arion: (�C�mo? Ahora de la nada quiere que me quede...)
+Arion: (Antes me dijo que no la molestara m�s... No me cuadra mucho)
+@choice "�Por qu� deber�a hacer eso?" goto:.BranchA
+@choice "Podr�a quedarme un poco, s�lo un poco..." goto:.BranchB
+@stop
+# BranchA
+@sfx Pereza.Suspiro
+@char Pereza.Bostezando time:1
+@printer PerezaPrinter
+Chica: As�... podr�a hablarte m�s... de t�
+@printer Dialogue
+Arion: Ahora s� quieres contestar mis preguntas
+Arion: No s� a qu� est�s jugando pero no me f�o un pelo de t�
+@char Pereza.Default time:1
+@printer PerezaPrinter
+Chica: Podr�amos sentarnos un momento y empezar de cero... 
+@char Pereza.Pensativa time:1
+Chica: De cero...
+@choice "Est� bien s�lo por un momento" goto:Pereza_Dialogue2-Part2.BranchA-A
+@choice "Debo continuar como sea" goto:Pereza_Dialogue2-Part2.BranchA-B
+@stop
+# BranchB
+@printer PerezaPrinter
+Chica: Buen chico...
+Chica: Ven, si�ntate...
+@printer Dialogue
+Arion: (No ha ocurrido nada sospechoso pero... me encuentro raro... como sin energ�a...)
+Arion: Cla-claro... S�lo un momento...
+@sfx Pereza.Pregunta
+@char Pereza.Pensativa time:1
+Chica: �Te ocurre algo? Te noto cansado...
+Chica: Ser� mejor que descanses un poco antes de seguir tu duro viaje...
+@printer Dialogue
+(Las palabras resuenan con eco en la cabeza de Arion)
+; Esta rama para al mismo sitio que la rama A
+@choice "Puede que tengas raz�n" goto:Pereza_Dialogue2-Part2.BranchA-A
+@choice "Debo continuar, sea como sea" goto:Pereza_Dialogue2-Part2.BranchA-B
+@stop

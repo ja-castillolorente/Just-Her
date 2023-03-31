@@ -1,0 +1,25 @@
+@printer IraPrinter
+@sfx Ira.Queja volume:0.1
+@char Ira.Silueta pos:"59, 25, -5.4" time:1
+???: �Qu� es lo que quieres ahora? �Acaso vienes a pedir perd�n?
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: Eso no arreglar� nada, todo es por tu culpa.
+@choice "Lo s� todo, el incidente, lo recuerdo..." goto:.BranchA
+@choice "¿Cómo puedes ser tan terca? Dices todo eso sobre mí cuando ni siquiera te conozco..." goto:.BranchB
+@stop
+# BranchA
+@sfx Ira.Risa volume:0.1
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: �Bravo, felicidades al caballero!
+???: �Y qu� pretendes con eso, est�pido? �Disculparte?
+???: Eso no solucionar� nada de nada.
+@choice "No voy a disculparme porque sé que fue un accidente. Se supone que lo sabes, ¿no?" goto:Ira_Dialogue2-Part2.BranchA-A
+@choice "Antes que nada, �qui�n eres exactamente? ¿Cuáles son tus motivos para tratarme de esta manera? ¿Acaso no sabes todo sobre mí?" goto:Ira_Dialogue2-Part2.BranchA-B
+@stop
+# BranchB
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+???: Me conoces perfectamente, al igual que yo te conozco a ti.
+Ira: Soy tu ira, tu frustraci�n, tu todo.
+@choice "Entonces tú también intentaras frenarme" goto:Dialogue2-Part2.BranchB-A
+@choice "Pereza entendió todo, ¿por qué tú no?" goto:Dialogue2-Part2.BranchB-B
+@stop

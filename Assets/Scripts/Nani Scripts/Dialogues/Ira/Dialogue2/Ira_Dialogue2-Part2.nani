@@ -1,0 +1,36 @@
+# BranchA-A
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: Obvio que s� todo sobre t�
+Ira: Soy tu ira, tu frustraci�n... y no puedes arreglarlo todo tan f�cilmente
+Ira: Fue tu error y debes arreglarlo
+@printer Dialogue
+Arion: Supongamos que llevas razón
+Arion: ¿Cómo explicas entonces la intención del acto?
+@printer IraPrinter
+Ira: ¿Intención?
+@choice "Existe una palabra llamada intención, tiene significado y todo" goto:Ira_Dialogue2-Part3.BranchA-A-A
+@choice "Ella también pensó que la intención era buena, ¿recuerdas?" goto:Ira_Dialogue2-Part3.BranchA-A-B
+@stop
+# BranchA-B
+@char Ira.Default pos:"59, 25, -5.4" time:1
+Ira: Soy tu ira, tu frustraci�n.
+Ira: Soy t� y tus pensamientos.
+Ira: S� todo sobre t�, s� lo que le hiciste a mam�...
+@choice "¡Deja de decir estupideces! ¡Acepta la realidad, como hizo ella!" goto:Ira_Dialogue2-Part3.BranchA-B-A
+@choice "Yo jamás haría daño a mi madre..." goto:Ira_Dialogue2-Part3.BranchA-B-B
+@stop
+# BranchB-A
+@sfx Ira.Risa volume:0.1
+@char Ira.Default pos:"59, 25, -5.4" time:1
+Ira: �S�! �Lo s� todo, peque�o pir�mano! Y pagar�s por ello...
+@choice "Lo sabr�s todo pero no entiendes nada. No todo es acierto y error. También hay intenciones y consecuencias..." goto:Ira_Dialogue2-Part3.BranchB-A-A
+@choice "Si lo sabes todo o, más bien, eres yo, tú también eres una estúpida. No entiendo cómo no comprendes nada" goto:Ira_Dialogue2-Part3.BranchB-A-B
+@stop
+# BranchB-B
+@sfx Ira.Risa volume:0.75
+@char Ira.Default pos:"59, 25, -5.4" time:1
+Ira: Creo que es obvio que a Pereza no le importas...
+Ira: Ésto es lo mejor para tí...
+@choice "�Estoy harto de �sto! Sólo miras lo que te conviene, lo que te no frustra ¡Nunca miras lo demás!" goto:Ira_Dialogue1-Part3.BranchB-B-A
+@choice "Si es lo mejor para mí entonces creo que no lo entiendes. No te das cuenta de nada... no como ella" goto:Ira_Dialogue1-Part3.BranchB-B-B
+@stop

@@ -1,0 +1,73 @@
+@printer PerezaPrinter
+@sfx Pereza.Pregunta
+Voz: Oye...
+Voz: �Qu� crees que haces?
+@char Pereza.Silueta time:1
+@printer Dialogue
+???: �Qui-qui�n eres t�? �D-de d�nde has salido?
+@sfx Pereza.Suspiro
+@char Pereza.Bostezando time:1
+@printer PerezaPrinter
+Chica: Haces... demasiadas preguntas...
+@printer Dialogue
+???: �Qu� es todo �sto? 
+???:  Necesito que me ayudes, no s� qu� est� ocurriendo aqu�...
+@sfx Pereza.Pregunta
+@char Pereza.Default time:1
+@printer PerezaPrinter
+Chica: A�n no he respondido a las anteriores y ya me est�s haciendo m�s preguntas...
+@char Pereza.Pensativa time:1
+Chica: Oye chico... Dime una cosa...
+Chica: �Qu� diferencia hay... entre alguien que tiene una meta... y alguien que tira la toalla?
+@printer Dialogue
+???: (�A qu� vendr� �sto?)
+???: (A�n as� necesito su ayuda, pero no es tan f�cil dar una respuesta a esa pregunta de buenas a primeras...)
+@choice Esp�ritu goto:.BranchA
+@choice Ego�smo goto:.BranchB
+@stop
+# BranchA
+???: Es el esp�ritu, la mentalidad, todo lo que te permite superarte...
+???: Aunque es una buena opci�n, no todo el mundo tiene un buen esp�ritu...
+@sfx Pereza.Pregunta
+@printer PerezaPrinter
+Chica: �No tienes buen esp�ritu? �No... conf�as en t� mismo... Arion?
+@printer Dialogue
+???: (Arion...)
+???: (Definitvamente soy yo...)
+Arion: (�Pero c�mo me conoce esta chica?)
+@char Pereza.Default time:1
+@printer PerezaPrinter
+Chica: �Nadie cree en t�, Arion?
+@choice "Hay alguien qu� conf�a en m�" goto:Pereza_Dialogue1-Part2.BranchA-A
+@choice "Yo s�lo puedo con todo" goto:Pereza_Dialogue1-Part2.BranchA-B
+@stop
+# BranchB
+Arion: El que tira la toalla es porque es ego�sta. S�lo piensa en s� mismo, en sus l�mites, y no en superarlos
+Arion: Todos pueden si quieren...
+@char Pereza.Default time:1
+@sfx Pereza.Suspiro
+@printer PerezaPrinter
+Chica: Entonces seg�n t� todo el mundo tiene las mismas oportunidades...
+@char Pereza.Bostezando time:1
+Chica: Es por ello que sigues aqu�...
+@printer Dialogue
+Arion: �C�mo? No he dicho eso...
+@sfx Pereza.Demo
+@char Pereza.Default time:1
+@printer PerezaPrinter
+Chica: �T� has tenido las mismas oportunidades que todos?
+@printer PerezaPrinter
+Arion: N-no lo s�... No lo recuerdo con claridad
+@printer PerezaPrinter
+@sfx Pereza.Queja
+Chica: Pues entonces deber�as empezar por ah�... 
+Chica: Tranquilo... tendr�s tiempo de reflexionar aqu�...
+Chica: Una eternidad...
+; Game Over
+@hide Pereza
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm sotanocortado fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop

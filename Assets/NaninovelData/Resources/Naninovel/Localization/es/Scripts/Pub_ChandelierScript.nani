@@ -1,0 +1,40 @@
+; Localization script for `Pub_ChandelierScript`
+
+# 46331d19
+; Arion: �Un candelabro en un lugar como este?
+Arion: ¿Un candelabro en un lugar como este?
+
+# 92e0e448
+; Arion: No tiene nada de especial a primera vista�
+Arion: No tiene nada de especial a primera vista...
+
+# f90dd80b
+; Arion: Hmm� Ese olor me resulta familiar.
+Arion: Hmm... Ese olor me resulta familiar.
+
+# 770b7c45
+; Arion: �Ceniza?
+Arion: ¿Ceniza?
+
+# 5376b7d2
+; Arion: No tiene sentido...
+
+# c1453c67
+; @choice Inspeccionar goto:.Inspeccionar
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# ec1ef604
+; Arion: Un simple candelabro, nada m�s.
+Arion: Un simple candelabro, nada más.
+
+# ae72ab8a
+; Arion: Pero ese olor...
+
+# 2a9e02be
+; Arion: Hmm...
+
+# 6cf242e1
+; Arion: No importa, este lugar es extra�o
+Arion: No importa, este lugar es extraño.

@@ -1,0 +1,142 @@
+# BranchA-A-A-A
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: No intentes distraerme, no evadas lo que le causaste a mam� y a padre...
+Ira: �Todo es por tu culpa! �Pagar�s por ello!
+@hide Ira time:1
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm salon fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-A-A-B
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: Intenci�n... Comida...
+Ira: �Pero c�mo explicas lo de padre?
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop
+# BranchA-A-B-A
+
+# BranchA-A-B-B
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: Intenci�n... Comida...
+Ira: �Pero c�mo explicas lo de padre?
+@hide Ira time:1
+@printer Dialogue
+; Vuelta al mapa, MC habla
+Arion: �Lo de padre? Ah...
+@goto Ira_AfterDialogue2
+@stop
+# BranchA-B-A-A
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: Pero...
+Ira: Entonces...
+Ira: �Padre?
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop
+# BranchA-B-A-B
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx Ira.Urusai volume:0.1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: �Ca-c�llate! Pa-padre no opinaba as�...
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop
+# BranchA-B-B-A
+@char Ira.Default pos:"59, 25, -5.4" time:1
+Ira: �S�, vas a pagar!
+Ira: Padre opinaba lo mismo...
+Ira: �l lo hac�a por el bien de todos...
+@hide Ira time:1
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm salon fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-B-B-B
+@sfx Ira.Hmm volume:0.75
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: �"Lo s�"? Supongamos que tienes raz�n...
+Ira: Entonces expl�came por qu� padre hac�a lo que hac�a.
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop
+# BranchB-A-A-A
+@sfx Ira.Kuso volume:0.75
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: Eso nos quita el hecho de que padre nos tratara as�...
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Lo de padre? Parece que ésto aún no termina
+Arion: ¿Tan malas han sido las decisiones de mi vida?
+@goto Ira_AfterDialogue2
+@stop
+# BranchB-A-A-B
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: Pues comprende t� que debes pagar por lo hecho, eso es lo que padre quer�a...
+Arion: �C�mo? �E-espera!
+@printer Dialogue
+@stopBgm salon fade:1
+@fadeOut objectName:BlackScreen
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchB-A-B-B
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: La intenci�n...
+Ira: Pero sali� mal... Padre lo sabe...
+@hide Ira time:1
+@printer Dialogue
+; Vuelta al mapa, MC
+Arion: Padre no ten�a raz�n...
+@goto Ira_AfterDialogue2
+@stop
+# BranchB-B-A-A
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx Ira.Urusai volume:0.1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: �Yo, yo! !Yo, yo y yo!
+Ira: S�lo piensas en t� y no en los dem�s, 
+Ira: �Ni en padre!
+@printer Dialogue
+Arion: �C�mo? �E-espera!
+@hide Ira time:1
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm salon fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchB-B-A-B
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: ��Qu�!? ��Vas en serio!?
+Ira: Padre.. Madre...
+Ira: Todo es tu culpa.
+Ira: Ellos lo saben...
+@printer Dialogue
+Arion: �C�mo? �E-espera!
+@hide Ira
+@hide DIalogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop

@@ -1,0 +1,3 @@
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@stop

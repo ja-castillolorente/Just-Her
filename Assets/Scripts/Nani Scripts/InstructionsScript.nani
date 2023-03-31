@@ -1,0 +1,62 @@
+@fadeOut objectName:BlackScreen
+@hideUI TitleUI time:1
+@wait 0.5
+@loadScene FillerScene
+@printer EllaPrinter
+En este juego, casi todo se hace con el clic izquierdo del rat�n
+@hide EllaPrinter
+@back Scenery
+@fadeIn objectName:BlackScreen
+@wait 1
+El jugador deber� interactuar con algunos objetos de los escenarios que visite
+@back HighlightedObject
+Los objetos que se pueden investigar tienen un aura blanca cuando el rat�n est� encima de �stos
+Al clicar sobre estos objetos...
+@hide EllaPrinter
+@back SelectedObject
+@printer EllaPrinter pos:"0, 50"
+... la c�mara se acercar� y el personaje principal hablar� acerca del objeto
+@hide EllaPrinter
+@fadeOut objectName:BlackScreen
+@wait 1
+@printer EllaPrinter pos:"0, 0"
+En algunos casos, revisar algunos objetos har� que aparezca un personaje y d� lugar una conversaci�n
+@hide EllaPrinter
+@back Dialogue
+@fadeIn objectName:BlackScreen
+@wait 2
+@back CharacterNameFocused
+@wait 0.5
+@printer EllaPrinter pos:"0, 50"
+En caso de que lo haya, el nombre del personaje que est� hablando en ese momento se indica en la parte superior del cuadro de di�logo
+Adem�s, el cuadro de di�logo tiene distintas apariencias dependiendo de qui�n est� hablando
+@printer PerezaPrinter pos:"0, 50"
+Por ejemplo, este cuadro pertenece a un personaje...
+@printer IraPrinter pos:"0, 50"
+... y �ste pertenece a otro
+@hide IraPrinter
+@fadeOut objectName:BlackScreen
+@wait 1
+@printer EllaPrinter pos:"0, 0"
+Las conversaciones con los personajes son clave para avanzar en la historia.
+@back Choice
+@fadeIn objectName:BlackScreen
+@wait 1
+El jugador debe de estar atento a la conversaci�n y decidir qu� decir en cada momento para no enfadar al personaje
+Si el jugador dice algo que no debe...
+@hide EllaPrinter
+@back GameOver
+... perder� la partida
+@hide EllaPrinter
+@fadeOut objectName:BlackScreen
+@wait 1
+�sta es la informaci�n que tienes por ahora, pero m�s tarde aprender�s m�s cosas
+Buena suerte...
+@hide EllaPrinter
+@hide MainBackground
+@printer PerezaPrinter pos:"0, 0"
+@printer IraPrinter pos:"0, 0"
+@printer Dialogue
+@showUI TitleUI time:1
+@fadeIn objectName:BlackScreen
+@stop

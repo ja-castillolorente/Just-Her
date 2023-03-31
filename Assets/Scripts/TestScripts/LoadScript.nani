@@ -1,0 +1,10 @@
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@wait 1
+@loadScene {savedScene}
+@bgm {savedBGM} volume:0.75 loop:true
+@loadObjects
+@fadeIn objectName:BlackScreen
+@wait 1
+@enableInteraction
+@stop

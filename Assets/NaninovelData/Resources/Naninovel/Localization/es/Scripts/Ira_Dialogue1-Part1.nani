@@ -1,0 +1,47 @@
+; Localization script for `Ira_Dialogue1-Part1`
+
+# 41bb0927
+; ???: Vaya, vaya...
+
+# cdfd691b
+; ???: Mira a qui�n tenemos aqu�...
+???: Mira a quién tenemos aquí...
+
+# 4d70bc63
+; @choice "Esa voz... Tú no eres Pereza ¿Quién ha dicho eso?" goto:.BranchA
+
+# af899e2c
+; @choice "No decir nada." goto:.BranchB
+
+# 8ba5526
+; ???: ¿Qué ocurre, pequeño parásito? ¿No te sientes bien sin Pereza aquí?
+
+# 823e26bf
+; ???: Yo soy la que manda aquí, recuérdalo.
+
+# fb85492b
+; ???: Quizá deberíamos hacerte lo mismo que le hicimos a Mamá.
+
+# 67e11746
+; ???: ¡Sí, será divertido!
+
+# aaa98c0e
+; @choice "�Par�sito? ¿A qué te refieres con todo ésto?" goto:Ira_Dialogue1-Part2.BranchA-A
+@choice "¿Parásito? ¿A qué te refieres con todo ésto?" goto:Ira_Dialogue1-Part2.BranchA-A
+
+# 227fb5
+; @choice "¿Lo que le hicimos a Mamá? ¿Quién eres? ¿Otro pecado de esos?" goto:Ira_Dialogue1-Part2.BranchA-B
+
+# edcbea1f
+; ???: Veo que el gato te comi� la lengua, como aquella vez, cuando todo era fuego. 
+???: Veo que el gato te comió la lengua, como aquella vez, cuando todo era fuego. 
+# bd441997
+; ???: �Fant�stico! �S�! Eso fue incre�ble, �No crees?
+???: ¡Fantástico! !Sí! Eso fue increíble, ¿No crees?
+
+# abfc6719
+; @choice "�A qu� te refieres?" goto:Ira_Dialogue1-Part2.BranchB-A
+@choice "¿A qué te refieres?" goto:Ira_Dialogue1-Part2.BranchB-A
+
+# ca2fa03d
+; @choice "No comprendo... no recuerdo nada..." goto:Ira_Dialogue1-Part2.BranchB-B

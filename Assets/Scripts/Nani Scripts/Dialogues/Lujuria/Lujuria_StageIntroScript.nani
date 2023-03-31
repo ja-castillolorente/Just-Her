@@ -1,0 +1,11 @@
+@loadScene LoveRoomScene
+@bgm habitacionlujuria volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: Conque �ste es el �ltimo escal�n...
+Arion: Esta habitaci�n... tiene algo que me resulta familiar...
+Arion: Ese olor... �Perfume?
+@hide Dialogue
+@enableInteraction
+@saveSceneInfo
+@stop

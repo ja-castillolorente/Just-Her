@@ -1,0 +1,66 @@
+@printer PerezaPrinter
+@char Pereza.Default time:1
+Chica: No soy un koala. Soy tu pecado capital, Pereza
+@char Pereza.Bostezando time:1
+@printer Dialogue
+Arion: Ya, bueno...
+Arion: Espera, �c�mo?
+@sfx Pereza.Pregunta
+@char Pereza.Pensativa time:1
+@printer PerezaPrinter
+Pereza: Cre�a... que ya lo supon�as...
+@printer Dialogue
+Arion: (�Por eso trataba de retenerme aqu�?)
+Arion: (Supongo que ya nada de �sto tiene sentido, debo estar alerta ante todo)
+Arion: No entiendo tu manera de actuar, expl�came qu� ocurre aqu�
+@printer PerezaPrinter
+@sfx Pereza.Suspiro
+Pereza: Qu� aburrido si te lo cuento yo...
+Pereza: Deber�as descubrirlo t� mismo...
+@char Pereza.Bostezando time:1
+Pereza: Y no s�lo act�o de esa... manera
+@choice "�Es una especie de juicio final?" goto:.BranchA
+@choice "�Estoy muerto?" goto:.BranchB
+@stop
+# BranchA
+@char Pereza.Pensativa time:1
+Pereza: No est�s del todo... equivocado
+@char Pereza.Default time:1
+Pereza: Has cometido demasiadas... decisiones malas
+@char Pereza.Pensativa time:1
+Pereza: No puedo decir m�s
+@printer Dialogue
+Arion: �Malas decisiones? 
+Arion: Pero no recuerdo nada... �Qu� es lo que debo hacer?
+@printer PerezaPrinter
+@sfx Pereza.Hayaku
+Pereza: Juega con lo que tienes...
+Pereza: �Por qu� deber�a dejarte ir? Supongo que soy demasiado... emp�tica
+Pereza: Adem�s, estoy aburr�da de ti
+@choice "Tengo que cumplir con una promesa" goto:Pereza_Dialogue3-Part2.BranchA-B
+@choice "No aguanto m�s aqu�" goto:Pereza_Dialogue3-Part2.BranchA-A
+@stop
+# BranchB
+@char Pereza.Pensativa time:1
+Pereza: S�... y no
+@char Pereza.Default time:1
+Pereza: Es complicado y cansado de explicar...
+@char Pereza.Pensativa time:1
+Pereza: Simplemente... has cometido muchas malas decisiones
+@printer Dialogue
+Arion: No comprendo, �qu� es lo que quieres de m� entonces?
+@sfx Pereza.Hayaku
+@char Pereza.Default time:1
+@printer PerezaPrinter
+Pereza: En verdad preferir�a descansar en vez de aguantar tus est�pidas preguntas...
+Pereza: Pero en fin...
+Pereza: Supongo que no puedo cumplir un buen papel como villana... Me aburro muy r�pido...
+@printer Dialogue
+Arion: Dime entonces, �qu� es lo que debo hacer?
+@printer PerezaPrinter
+Pereza: Nada...
+Pereza: S�lo dime... �Por qu� deber�a dejarte ir?
+; Esta rama acaba en el mismo sitio que la rama A
+@choice "Tengo que saber m�s de ella" goto:Pereza_Dialogue3-Part2.BranchA-A
+@choice "No he entendido nada a�n, necesito salir de aqu�" goto:Pereza_Dialogue3-Part2.BranchA-B
+@stop

@@ -1,0 +1,32 @@
+; Localization script for `Bath_JacuzziScript`
+
+# 18c484a0
+; Arion: �Y si... me diera un ba�o?
+Arion: ¿Y si... me diera un baño?
+# 607e1d4f
+; Arion: Nadie lo notar�a...
+Arion: Nadie lo notaría...
+# 99fce20d
+; Arion: Adem�s, llevo todo el d�a por aqu�...
+Arion: Además, llevo todo el día por aquí...
+# de47b8d1
+; @choice "Tomar un descanso" goto:.ChoiceA
+
+# a01ad9e6
+; @choice "No caer en la tentaci�n" goto:.ChoiceB
+@choice "No caer en la tentación" goto:.ChoiceB
+# 77b64d5d
+; (Arion sigui� autoconvenci�ndose hasta caer en la tentaci�n)
+(Arion siguió autoconvenciéndose hasta caer en la tentación)
+# 9c8fa714
+; Arion: Ahh... Esto es muy relajante...
+Arion: Ahh... Esto es muy relajante...
+# ee1102ba
+; Arion: No creo que sea lo mejor
+
+# f9fe0fbc
+; Arion: Mejor dej�moslo estar...
+Arion: Mejor dejémoslo estar...
+# e2fcc1d8
+; Arion: Prefiero acabar con todo esto de una vez por todas
+Arion: Prefiero acabar con todo esto de una vez por todas

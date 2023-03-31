@@ -1,0 +1,32 @@
+; Localization script for `Basement_PillowScript`
+
+# abb3440e
+; ???: Este sof� parece realmente c�modo...
+???: Este sofá parece realmente cómodo...
+
+# 18229
+; ???: �Deber�a descansar un rato?
+???: ¿Debería descansar un rato?
+
+# e3c5d4f2
+; @choice Claro goto:.Claro
+
+# 83213f39
+; @choice No goto:.No
+@choice No goto:.No
+
+# cbfc3aa1
+; ???: Bueno, no creo que por relajarme un momento ocurra algo
+???: Bueno, no creo que por relajarme un momento ocurra algo.
+
+# b9fda1fe
+; 5 minutos despu�s...
+5 minutos después...
+
+# eac70952
+; ???: No creo que sea buen momento para ello...
+???: No creo que sea buen momento para ello...
+
+# 6a9f5bd8
+; ???: Creo que debo seguir buscando, no hay tiempo que perder� 
+???: Creo que debo seguir buscando, no hay tiempo que perder...

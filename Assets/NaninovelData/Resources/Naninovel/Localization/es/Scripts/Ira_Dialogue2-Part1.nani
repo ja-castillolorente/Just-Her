@@ -1,0 +1,48 @@
+; Localization script for `Ira_Dialogue2-Part1`
+
+# 461a34dd
+; ???: �Qu� es lo que quieres ahora? �Acaso vienes a pedir perd�n?
+???: ¿Qué es lo que quieres ahora? ¿Acaso vienes a pedir perdón?
+
+# d1c9373b
+; ???: Eso no arreglar� nada, todo es por tu culpa.
+???: Eso no arreglará nada, todo es por tu culpa.
+
+# d1ca2b5a
+; @choice "Lo s� todo, el incidente, lo recuerdo..." goto:.BranchA
+@choice "Lo sé todo, el incidente, lo recuerdo..." goto:.BranchA
+
+# 36d3dc41
+; @choice "¿Cómo puedes ser tan terca? Dices todo eso sobre mí cuando ni siquiera te conozco..." goto:.BranchB
+
+# 3d326030
+; ???: �Bravo, felicidades al caballero!
+???: ¡Bravo, felicidades al caballero!
+
+# 6025fffd
+; ???: �Y qu� pretendes con eso, est�pido? �Disculparte?
+???: ¿Y qué pretendes con eso, estúpido? ¿Disculparte?
+
+# b2de2ec
+; ???: Eso no solucionar� nada de nada.
+???: Eso no solucionará nada de nada.
+
+# acf3304d
+; @choice "No voy a disculparme porque sé que fue un accidente. Se supone que lo sabes, ¿No?" goto:Ira_Dialogue2-Part2.BranchA-A
+
+# 5cb5ec89
+; @choice "Antes que nada, �Qui�n eres exactamente? ¿Cuáles son tus motivos para tratarme de esta manera? ¿Acaso no sabes todo sobre mí?" goto:Ira_Dialogue2-Part2.BranchA-B
+@choice "Antes que nada, ¿Quién eres exactamente? ¿Cuáles son tus motivos para tratarme de esta manera? ¿Acaso no sabes todo sobre mí?" goto:Ira_Dialogue2-Part2.BranchA-B
+
+# 66c92d5a
+; ???: Me conoces perfectamente, al igual que yo te conozco a ti.
+
+# 2aabb6b
+; Ira: Soy tu ira, tu frustraci�n, tu todo.
+Ira: Soy tu ira, tu frustración, tu todo.
+
+# d941c373
+; @choice "Entonces tú también intentaras frenarme." goto:Dialogue2-Part2.BranchB-A
+
+# 71cf9c46
+; @choice "Pereza entendió todo, ¿Por qué tú no?" goto:Dialogue2-Part2.BranchB-B

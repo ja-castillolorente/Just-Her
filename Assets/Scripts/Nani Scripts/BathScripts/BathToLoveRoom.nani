@@ -1,0 +1,12 @@
+
+@disableInteraction
+Volveré a la habitación de nuevo
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene LoveRoomScene
+@bgm habitacionlujuria volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@enableInteraction
+@stop

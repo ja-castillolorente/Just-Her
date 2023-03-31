@@ -1,0 +1,10 @@
+Arion: Este lugar... me suena de algo
+@loadScene PubScene
+@fadeIn objectName:BlackScreen
+@wait 1
+@bgm salon loop:true
+Arion: No comprendo nada de lo que pasa
+Arion: Pero por lo menos ya tengo algo de información
+@hide Dialogue
+@enableInteraction
+@stop

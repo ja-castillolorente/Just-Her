@@ -1,0 +1,28 @@
+; Localization script for `Kitchen_NoteScript`
+
+# 9c9bde78
+; Arion: E-esta nota... 
+
+# 118549e0
+; Arion: Recuerdo haberla le�do antes de llegar aqu�
+Arion: Recuerdo haberla leído antes de llegar aquí.
+
+# 7809e20e
+; @choice Interactuar goto:.Interactuar
+
+# fdc123e3
+; *Arion se acerca a la nota y la lee.*
+
+# bc0da8dc
+; ???: S� que no lo quieres, que no lo deseaste, pero yo quiero luchar por �l, porque es nuestro hijo
+???: Sé que no lo quieres, que no lo deseaste, pero yo quiero luchar por él, porque es nuestro hijo.
+
+# 12e0ebed
+; ???: Debes entender, cari�o. Podemos hacer ésto juntos...
+???: Debes entender, cariño. Podemos hacer ésto juntos...
+
+# bb160d17
+; Arion: Ahora comprendo un poco más...
+
+# d9b1b14
+; Arion: Después de encontrar ésto en casa me desperté aquí, ¿Verdad?

@@ -1,0 +1,60 @@
+# BranchA-B-A
+???: ¡Sí, ahora ésto es más divertido!
+???: Espero que sea así siempre, ya que nunca saldrás de aquí
+???: No lo mereces, no lo mereces, no lo mereces...
+@hide Ira time:1
+@printer Dialogue
+Arion: �Salir de aqu�? �Qu� este sitio exactamente?
+Arion: Todo es demasiado extra�o...
+Arion: Creo que ella puede ayudarme
+@hide Dialogue
+@set Ira_hasSpokenOnce=true
+@set Pub_hasExaminedSymbol=true
+@enableInteraction
+@stop
+# BranchA-B-B
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx Ira.Urusai volume:0.75
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+???: Eres muy pesado.
+???: "�Qui�n eres? �Qu� quieres?" �Algo m�s?
+???: �AGH, me hartas!
+???: �Deber�as recapacitar!
+Arion: Pe-pero espera, �a�n podemos hablar!
+@hide Ira
+@printer Dialogue
+; Game Over
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchB-A-A
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+???: �S� que lo entiendo! 
+???: La culpa te llena...
+???: Y te llenar� m�s, porque no vas a poder salir de aqu�...
+???: Nunca...
+@hide Ira time:1
+@printer Dialogue
+Arion: Necesito aclarar todo ésto, encontrar más información
+Arion: Quizás ella pueda ayudarme...
+@hide Dialogue
+@set Ira_hasSpokenOnce=true
+@set Pub_hasExaminedSymbol=true
+@enableInteraction
+@stop
+# BranchB-A-B
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@sfx Ira.Urusai
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+???: Arrogante... despreciable... me cansas.
+???: ¡Puede que con ésto recapacites!
+@hide Ira
+@printer Dialogue
+; Game Over
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop

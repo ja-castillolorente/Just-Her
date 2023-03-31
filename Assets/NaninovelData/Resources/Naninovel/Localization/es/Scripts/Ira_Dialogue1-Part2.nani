@@ -1,0 +1,83 @@
+; Localization script for `Ira_Dialogue1-Part2`
+
+# 5957cbb1
+; ???: Tienes agallas... pero yo no soy tan buena como Pereza...
+
+# 679acfc6
+; Arion: No tengo tiempo para estupideces, ¿Qué ocurre aquí?
+
+# 8af12400
+; ???:  ¿Ahora quieres hablar? Qué indeciso.
+
+# f95720db
+; ???: Pensé que me golpearías o algo por el estilo...
+
+# 8d602a4
+; ???: En fin, ya tendremos tiempo de hablar...
+
+# 9bac3b00
+; ???: ¡Literalmente una vida!
+
+# d6ccda50
+; Arion: Una vida...
+
+# 909e0d77
+; Arion: Aún no comprendo del todo la situación, todo me da vueltas...
+
+# 9154512d
+; Arion: Puede que ella tenga una respuesta a ésto. 
+
+# e9e5332f
+; ???: Preguntas demasiado, me estás hartando... 
+
+# cd7b4b65
+; ???: Pens� que me dar�as m�s juego, peque�o par�sito.
+???: Pensé que me darías más juego, pequeño parásito.
+
+# 344d5aee
+; @choice "Quiz�s t� me aburres a m�... Mira, no sé que ocurre aquí, no vas a conseguir nada." goto:Ira_Dialogue1-Part3.BranchA-B-A
+@choice "Quizás tú me aburres a mí... Mira, no sé que ocurre aquí, no vas a conseguir nada." goto:Ira_Dialogue1-Part3.BranchA-B-A
+
+# a323ccb0
+; @choice "�Qu� es lo que quieres? ¿Quién te crees que eres para hablarme así? ¿Qué es lo que sabes?" goto:Ira_Dialogue1-Part3.BranchA-B-B
+@choice "¿Qué es lo que quieres? ¿Quién te crees que eres para hablarme así? ¿Qué es lo que sabes?" goto:Ira_Dialogue1-Part3.BranchA-B-B
+
+# c194ee79
+; ???: �No te acuerdas? Fue incre�ble cuando cocinamos para mam� �S�! Pero al final se quem� la comida, una pena...
+???: ¿No te acuerdas? Fue increíble cuando cocinamos para mamá ¡Sí! Pero al final se quemó la comida, una pena...
+
+# e410b5e2
+; @choice "Creo que voy comprendiendo todo... aún así, ella no piensa así." goto:Ira_Dialogue1-Part3.BranchB-A-A
+
+# d7da5441
+; @choice "Yo no hice nada... No recuerdo nada de ello..." goto:Ira_Dialogue1-Part3.BranchB-A-B
+
+# 3ee3579a
+; ???: Qué pena, debería refrescarte la memoria... 
+
+# aa94ef39
+; ???: O mejor no, sería muy sencillo así.
+
+# 65cbdf3a
+; Arion: ¿Cómo te atreves a hablar así?
+
+# 281bdf95
+; Arion: Realmente eres diferente a Pereza...
+
+# 88790cf0
+; Arion: ¡Al menos ella estaba dispuesta a hablar!
+
+# b2c0a134
+; ???: Porque sé lo que hiciste.
+
+# 2edab4b
+; ???: Lo sé todo sobre tí...
+
+# 60d02cab
+; ???: Y te arrepentirás...
+
+# b016f9e2
+; Arion: ¿Todo?
+
+# c62b1fae
+; Arion: Necesito encontrar más información, quizá ella pueda ayudarme.

@@ -1,0 +1,40 @@
+@if Basement_hasExaminedComputer==false
+@disableInteraction
+???: Est� encendido...
+???: No s� si cotillear es lo mejor, puede llegar alguien en cualquier momento...
+???: Da igual, puede que encuentre algo de relevancia aqu�.
+???: Hay muchos documentos
+???: El fondo de escritorio es... raro
+???: Tiene la palabra �esp�ritu� en todo el centro...
+???: Esta carpeta tiene... im�genes
+???: Hmm... Eso puede servirme
+???: Hay muchas del mismo chico. Supongo que ser� ese tal Arion que firma los papeles de este habit�culo.
+???: E-esa ropa... es igual a la que llevo yo
+???: De hecho, la forma de su cuerpo, su cara... �Soy yo!
+???: Espera, �c�mo ha llegado todo esto aqu�?
+???: Aqu� parece que salgo con una chica... 
+???: �Qui�n ser� ella?
+@printer EllaPrinter
+@fadeOut objectName:BlackScreen
+@wait 1
+???: Tranquilo Arion... Estoy contigo... 
+???: Conf�o en t�...
+@printer Dialogue
+@fadeIn objectName:BlackScreen
+@wait 1
+@printer Dialogue
+???: �De d�nde vino esa voz? Mi cabeza da vueltas...
+???: A decir verdad me quiere sonar familiar pero... a�n no pienso con claridad...
+@hide Dialogue
+@set Basement_hasExaminedComputer=true
+@set Basement_clickedObjects=Basement_clickedObjects-1
+@enableInteraction
+@stop
+@elseif Basement_hasExaminedComputer==true
+@disableInteraction
+???: Necesito concentrarme... �C�mo habr� llegado aqu�?
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

@@ -1,0 +1,36 @@
+; Localization script for `Pub_BottleScript`
+
+# 30e00f8e
+; Arion: Realmente hay muchos tipos de alcohol aquí...
+
+# c1453c67
+; @choice Inspeccionar goto:.Inspeccionar
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# e542cc7b
+; Arion: No reconozco ese tipo de alcohol, ni siquiera uno de toda la repisa.
+
+# 61c0edf0
+; Arion: �Deber�a probarlo? Puede que as� lo reconozca...
+Arion: ¿Debería probarlo? Puede que así lo reconozca...
+
+# 2a9e02be
+; Arion: Hmm...
+
+# 4b337679
+; Arion: No... Deber�a de alejarme de ello, no trae nada bueno...
+Arion: No... Debería de alejarme de ello, no trae nada bueno...
+
+# 7374405b
+; Arion: Me trae malos remordimientos pero, ¿Por qué? 
+
+# 2dc786a8
+; *Arion se pone a canturrear.*
+
+# 3874c0b6
+; Arion: Alcohol, alcohol... Un gran traicionero...
+
+# 76223e79
+; *Arion deja la botella en su sitio.*

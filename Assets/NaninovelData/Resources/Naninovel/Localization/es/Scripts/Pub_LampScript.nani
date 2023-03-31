@@ -1,0 +1,35 @@
+; Localization script for `Pub_LampScript`
+
+# 54d7569d
+; Arion: Este lugar es realmente extra�o, aunque esas l�mparas me suenan de algo...
+Arion: Este lugar es realmente extraño, aunque esas lámparas me suenan de algo...
+
+# a6e58941
+; Arion: Hmmm... No s� muy bien a qu�...
+Arion: Hmmm... No sé muy bien a qué...
+
+# cc5401d9
+; Arion: A�n estoy un poco mareado...
+Arion: Aún estoy un poco mareado...
+
+# c1453c67
+; @choice Inspeccionar goto:.Inspeccionar
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# 4259cf3d
+; Arion: Se me viene a la mente mi propio ser en este bar anteriormente…
+
+# d4c5df41
+; Arion: ¿Realmente he estado aquí antes? ¿No estaba yo en mi casa?
+
+# 6bbd1755
+; Arion: Es como si no recordara nada… 
+
+# a02abfd2
+; Arion: Ser� mejor buscar algo o a alguien que me ayude a comprender lo que ocurre.
+Arion: Será mejor buscar algo o a alguien que me ayude a comprender lo que ocurre.
+
+# 1169eb4b
+; Arion: Todo es tan confuso...

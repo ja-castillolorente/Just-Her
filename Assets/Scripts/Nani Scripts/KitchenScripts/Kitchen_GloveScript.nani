@@ -1,0 +1,9 @@
+@disableInteraction
+Arion: Esta manopla...
+; Imagen del PC durante unos instantes
+Arion: ¿Por qué me recuerda a ella?  ¿Será suya?
+Arion: Debo salir de aquí…
+Arion: Todavía mantiene el calor… Espero que ella esté bien…
+@hide Dialogue
+@enableInteraction
+@stop

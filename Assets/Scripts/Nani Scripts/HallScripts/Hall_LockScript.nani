@@ -1,0 +1,8 @@
+@disableInteraction
+Arion: Hay un candado enorme delante de la puerta
+Arion: �Pero est� cerrada de verdad?
+Al acercar la mano, una energ�a extra�a me impide tocar el pomo
+Arion: Quiz� pueda volver m�s tarde...
+@hide Dialogue
+@enableInteraction
+@stop

@@ -1,0 +1,38 @@
+# BranchA-A
+@printer Dialogue
+Arion: Estoy seguro de que ella conf�a en m�, tengo un presentimiento...
+Arion: Pero no estoy seguro...
+@printer PerezaPrinter
+Chica: ...
+@char Pereza.Bostezando time:1
+Chica: Bien pensado... 
+Chica: Ahora deja de molestarme...
+@char Pereza.Silueta time:1
+Chica: Tengo que descansar...
+@printer Dialogue
+Arion: �C�mo? �Espera, a�n tengo preguntas!
+@hide Pereza
+@printer Dialogue
+Arion: En fin...
+@hide Dialogue
+@set Basement_hasExaminedSymbol=true
+@set Pereza_hasSpokenOnce=true
+@enableInteraction
+@stop
+# BranchA-B
+@printer Dialogue
+Arion: No necesito a nadie, yo s�lo puedo con todo
+@sfx Pereza.Gomen
+@char Pereza.Default time:1
+@printer PerezaPrinter
+Chica: A�n te falta mucho por aprender por lo que veo...
+@char Pereza.Bostezando time:1
+Chica: Es por ello que estar�s aqu�... por siempre
+; Game Over
+@hide Pereza
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm saloncortado fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop

@@ -1,0 +1,28 @@
+@if Basement_clickedObjects!=0
+@disableInteraction
+???: Es un símbolo, como de invocación...
+???: Quizás haga algo si investigo un poco más
+Te quedan por examinar {Basement_clickedObjects} objetos
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Basement_clickedObjects==0&&Basement_hasExaminedSymbol==false
+@disableInteraction
+???: �Qu� es este sitio?
+???: Realmente es bastante feo, creo que el due�o no tiene bastante gusto...
+@goto Pereza_Dialogue1-Part1
+@stop
+@elseif Basement_clickedObjects==0&&Pereza_hasSpokenTwice==true
+@disableInteraction
+Arion: Eh, koala, despierta. 
+Arion: Tengo muchas preguntas
+@goto Pereza_Dialogue3-Part1
+@stop
+@else
+@disableInteraction
+Arion: Creo que no debería molestarla más... Por ahora.
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

@@ -1,0 +1,17 @@
+@if Bath_hasExaminedClothes==false
+@disableInteraction
+Arion: Parece ser del mismo estilo que las que hab�a en la habitaci�n...
+@set Bath_hasExaminedClothes=true
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf Bath_hasExaminedClothes==true
+@disableInteraction
+Arion: Parece ser del mismo estilo que las que hab�a en la habitaci�n...
+Arion: Ella realmente est� en todo momento conmigo...
+Arion: �Pero por qu�?
+@hide Dialogue
+@enableInteraction
+@stop
+@endIf
+@stop

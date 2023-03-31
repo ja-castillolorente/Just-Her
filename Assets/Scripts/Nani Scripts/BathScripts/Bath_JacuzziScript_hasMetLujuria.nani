@@ -1,0 +1,12 @@
+@printer LujuriaPrinter
+Lujuria: �Te diviertes?
+Lujuria: Creo que te est�s pasando de listo
+@printer Dialogue
+Arion: �C�mo? �Qui�n ha dicho eso?
+Arion: Mejor me salgo
+@fadeIn objectName:BlackScreen
+@hide Dialogue
+@wait 1
+@set Bath_hasExaminedJacuzzi=true
+@enableInteraction
+@stop

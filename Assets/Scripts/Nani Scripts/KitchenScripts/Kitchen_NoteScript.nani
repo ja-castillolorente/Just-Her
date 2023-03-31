@@ -1,0 +1,15 @@
+@disableInteraction
+Arion: E-esta nota... 
+Arion: Recuerdo haberla le�do antes de llegar aqu�
+@choice Interactuar goto:.Interactuar
+@stop
+# Interactuar
+*Arion se acerca a la nota y la lee*
+???: S� que no lo quieres, que no lo deseaste, pero yo quiero luchar por �l, porque es nuestro hijo
+???: Debes entender, cari�o. Podemos hacer ésto juntos...
+@hide Dialogue
+Arion: Ahora comprendo un poco más...
+Arion: Después de encontrar ésto en casa me desperté aquí, ¿verdad?
+@hide Dialogue
+@enableInteraction
+@stop

@@ -1,0 +1,25 @@
+; Localization script for `Kitchen_BreadScript`
+
+# 652cb8a4
+; Arion: Unas cuantas barras de pan.
+
+# 114ecfec
+; Arion: Tiene sentido, es una cocina al fin y al cabo�
+Arion: Tiene sentido, es una cocina al fin y al cabo.
+
+# 6a2b988f
+; Arion: No se cu�nto tiempo lleva aqu� pero tienen buena pinta.
+Arion: No sé cuánto tiempo llevan aquí pero tienen buena pinta.
+
+# c1aebdcb
+; @choice Comer goto:.Comer
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# 8931075c
+; Arion: Tremendo. Ya solo falta un vasito de agua.
+
+# a79fa56d
+; Arion: No puedo perder tiempo con �sto, debo investigar m�s� 
+Arion: No puedo perder tiempo con ésto, debo investigar más. 

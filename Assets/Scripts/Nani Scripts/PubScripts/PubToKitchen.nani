@@ -1,0 +1,22 @@
+@if Ira_hasSpokenTwice==false
+@disableInteraction
+Arion: Está cerrada.
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Ira_hasSpokenTwice==true
+@disableInteraction
+Arion: ¿Hmm? Creía que estaba cerrada.
+Arion: No sé si es muy seguro entrar… Aunque tampoco es que algo sea seguro aquí.
+Arion: Mejor entraré y veré que hay dentro.
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm salon fade:1
+@loadScene KitchenScene
+@bgm cocina volume:0.5 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@enableInteraction
+@stop
+@endif
+@stop

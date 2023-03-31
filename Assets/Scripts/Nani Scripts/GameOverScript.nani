@@ -1,0 +1,20 @@
+@loadScene GameOverScene
+@fadeIn objectName:BlackScreen
+@char SpecialSprites.GameOver pos:"-65, -110" scale:3
+@wait 1
+@bgm posiblemuerte volume:0.75
+@wait 1.5
+@choice  button:Naninovel/Buttons/NewGameButton pos:400,-75 handler:ButtonArea goto:.NewGame
+@choice  button:Naninovel/Buttons/MainMenuButton pos:400,75 handler:ButtonArea goto:.MainMenu
+@stop
+# NewGame
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@resetValues
+@goto Pereza_StageIntroScript
+@stop
+# MainMenu
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@title
+@stop

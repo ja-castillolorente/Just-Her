@@ -1,0 +1,21 @@
+; Localization script for `Kitchen_DrawersScript`
+
+# d6eadff4
+; Arion: Unos cuantos cajones.
+
+# c1453c67
+; @choice Inspeccionar goto:.Inspeccionar
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# ed79067b
+; *Arion abre los cajones.*
+
+# 3bff0026
+; Arion: Nada de nada� Est� m�s vac�o que la cabeza de esa ni�ata.
+Arion: Nada de nada. Está más vacío que la cabeza de esa niñata.
+
+# c240e275
+; Arion: No creo que haya nada ah� dentro...
+Arion: No creo que haya nada ahí dentro...

@@ -1,0 +1,21 @@
+@if Kitchen_hasSeenKitchenFlashback==false
+@disableInteraction
+Arion: �Qu�? Pero si antes he abierto la puerta.
+Arion: Esa chica... �me habr� encerrado!
+Arion: Tendr� que buscar una manera de abrir la puerta.
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Kitchen_hasSeenKitchenFlashback==true
+@disableInteraction
+Arion: Es hora de aclarar las cosas...
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm cocina fade:1
+@loadScene PubScene
+@fadeIn objectName:BlackScreen
+@bgm salon loop:true volume:0.75
+@enableInteraction
+@stop
+@endif
+@stop

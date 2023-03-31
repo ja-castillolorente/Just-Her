@@ -1,0 +1,63 @@
+# BranchA-A
+@sfx Lujuria.Naisu
+@char Lujuria.Sexy time:1
+Lujuria: Sab�a que eras buen chico...
+Lujuria: Ahora s�lo cierra los ojos...
+@hide Lujuria
+@fadeOut objectName:BlackScreen
+@wait 1
+Lujuria: Rel�jate...
+Lujuria: Tan s�lo ser� un instante...
+@printer Dialogue
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-B
+@printer Dialogue
+Arion: E-ella es la llave, es ella, �verdad?
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+Lujuria: �C�mo?
+Lujuria: ...
+Lujuria: No importa...
+Lujuria: Tienes la llave, s�, pero no tienes ni idea de c�mo utilizarla
+@choice "Ponerse el colgante" goto:Lujuria_Dialogue2-Part3.BranchA-B-A
+@choice "Sincerarse sobre ella" goto:Lujuria_Dialogue2-Part3.BranchA-B-B
+@stop
+# BranchB-A
+@sfx Lujuria.Suspiro
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+Lujuria: Ya est�s empezando a cabrearme...
+Lujuria: Vas a jugar conmigo o lo vas a pasar muy mal...
+@printer Dialogue
+Arion: �Sabes? Creo que aqu� nadie va a jugar a nada...
+@printer LujuriaPrinter
+Lujuria: ��C�mo te atreves?!
+@choice "Eres irritante" goto:Lujuria_Dialogue2-Part3.BranchB-A-A
+@choice "Sacar el colgante" goto:Lujuria_Dialogue2-Part3.BranchB-A-B
+@stop
+# BranchB-B
+Arion: Ella es mi llave, desde que la conoc� fue la llave que abr�a las puertas del cambio
+Arion: Para dejar atr�s mi pasado... y enfocarme en el futuro
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+Lujuria: Pe-pero...
+Lujuria: �T� no tienes futuro!
+@printer Dialogue
+Arion: S� lo tengo...
+Arion: He de decir que cuando despert� aqu� no recordaba nada pero...
+Arion: Con ayuda de ella lo pude solucionar todo...
+Arion: Y tambi�n me d� cuenta de lo que sent�a por ella en el mundo real...
+@sfx Lujuria.ChottoMate
+@printer LujuriaPrinter
+Lujuria: �N-no!
+Lujuria: �Espera!
+Lujuria: Yo s�lo quer�a pasar el rato contigo...
+@hide Lujuria
+@printer Dialogue
+Arion: Me he dado cuenta de que la quiero...
+@hide Dialogue
+@goto Ella_Dialogue2
+@stop

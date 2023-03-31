@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050d909da8f293c4cac3351071715b4d, type: 3}
+  m_Name: CustomVariablesConfiguration
+  m_EditorClassIdentifier: 
+  PredefinedVariables:
+  - name: savedScene
+    value: false
+  - name: savedBGM
+    value: false
+  - name: Ira_hasSpokenOnce
+    value: false
+  - name: Ira_hasSpokenTwice
+    value: false
+  - name: Ira_hasSpoken3Times
+    value: false
+  - name: Hall_hasEnteredIraDoor
+    value: false
+  - name: Pub_hasExaminedSymbol
+    value: false
+  - name: Pub_hasSeenPubFlashback
+    value: false
+  - name: Kitchen_hasSeenKitchenFlashback
+    value: false
+  - name: Basement_clickedObjects
+    value: 6
+  - name: Basement_hasExaminedDoor
+    value: false
+  - name: Basement_hasExaminedBin
+    value: false
+  - name: Basement_hasExaminedPhotoOnce
+    value: false
+  - name: Basement_hasExaminedPhotoTwice
+    value: false
+  - name: Basement_hasExaminedPhoto3Times
+    value: false
+  - name: Basement_hasExaminedSymbol
+    value: false
+  - name: Basement_hasExaminedComputer
+    value: false
+  - name: Basement_hasExaminedPillow
+    value: false
+  - name: Basement_hasExaminedWindow
+    value: false
+  - name: Pereza_hasSpokenOnce
+    value: false
+  - name: Pereza_hasSpokenTwice
+    value: false
+  - name: Pereza_hasSpoken3Times
+    value: false
+  - name: LoveRoom_hasExaminedShirt
+    value: false
+  - name: LoveRoom_hasExaminedHandcuffs
+    value: false
+  - name: LoveRoom_hasExaminedLongChair
+    value: false
+  - name: LoveRoom_hasEnteredBath
+    value: false
+  - name: Bath_hasExaminedClothes
+    value: false
+  - name: Bath_hasTakenPendant
+    value: false
+  - name: Bath_hasExaminedJacuzzi
+    value: false
+  - name: Lujuria_hasSpokenOnce
+    value: false

@@ -1,0 +1,44 @@
+; Localization script for `Lujuria_Dialogue1-Part2`
+
+# f4e8071b
+; Lujuria: Mira ni�o, ya me he hartado de que me faltes el respeto
+Lujuria: Mira niño, ya me he hartado de que me faltes el respeto.
+# 598d9928
+; Lujuria: �Ahora s� que no volver�s nunca a ver el sol salir!
+Lujuria: ¡Ahora sí que no volverás nunca a ver el sol salir!
+# b9e7997d
+; Lujuria: �Ah, s�?
+Lujuria: ¿Ah, sí?
+# 1abea2b6
+; Lujuria: Y cu�ntame, �qu� es eso tan importante que tienes que hacer?
+Lujuria: Y cuéntame, ¿qué es eso tan importante que tienes que hacer?
+# 5b7ac317
+; @choice "Tengo una promesa que cumplir." goto:Lujuria_Dialogue1-Part3.BranchA-B-A
+@choice "Tengo una promesa que cumplir." goto:Lujuria_Dialogue1-Part3.BranchA-B-A
+# a29b470d
+; @choice "Salir de este lugar." goto:Lujuria_Dialogue1-Part3.BranchA-B-B
+@choice "Salir de este lugar." goto:Lujuria_Dialogue1-Part3.BranchA-B-B
+# fccaa083
+; Lujuria: �Seguro que quieres saberlo?
+Lujuria: ¿Seguro que quieres saberlo?
+# 69a00854
+; Lujuria se acerca lentamente a Arion.
+Lujuria se acerca lentamente a Arion.
+# 3517df29
+; Lujuria: Lo vamos a pasar bien...
+
+# 3901d4a2
+; Arion: Creo que mejor cambio de opini�n...
+Arion: Creo que mejor cambio de opinión...
+# bbd82aa7
+; Lujuria: Oh vamos, no seas as�, cari�o...
+Lujuria: Oh vamos, no seas así, cariño...
+# d4af0514
+; Lujuria: Lo pasaremos genial...
+
+# 554e8b87
+; @choice "Ella no lo quer�a" goto:Lujuria_Dialogue1-Part3.BranchB-A-A
+@choice "Ella no lo quería." goto:Lujuria_Dialogue1-Part3.BranchB-A-A
+# af8933af
+; @choice "Eres muy repetitiva." goto:Lujuria_Dialogue1-Part3.BranchB-A-B
+@choice "Eres muy repetitiva." goto:Lujuria_Dialogue1-Part3.BranchB-A-B

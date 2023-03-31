@@ -1,0 +1,20 @@
+@disableInteraction
+Arion: Este lugar es realmente extra�o, aunque esas l�mparas me suenan de algo...
+Arion: Hmmm... No s� muy bien a qu�...
+Arion: A�n estoy un poco mareado...
+@choice Inspeccionar goto:.Inspeccionar
+@choice Dejar goto:.Dejar
+@stop
+# Inspeccionar
+Arion: Se me viene a la mente mi propio ser en este bar anteriormente…
+Arion: ¿Realmente he estado aquí antes? ¿No estaba yo en mi casa?
+Arion: Es como si no recordara nada… 
+@hide Dialogue
+@enableInteraction
+@stop
+# Dejar
+Arion: Ser� mejor buscar algo o a alguien que me ayude a comprender lo que ocurre.
+Arion: Todo es tan confuso...
+@hide Dialogue
+@enableInteraction
+@stop

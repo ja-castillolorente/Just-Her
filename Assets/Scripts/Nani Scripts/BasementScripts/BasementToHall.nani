@@ -1,0 +1,61 @@
+@if Basement_hasExaminedDoor==false
+@disableInteraction
+???: Parece estar cerrada...
+@hide Dialogue
+@set Basement_hasExaminedDoor=true
+@set Basement_clickedObjects=Basement_clickedObjects-1
+@enableInteraction
+@stop
+@elseif Basement_hasExaminedDoor==true&&Pereza_hasSpokenOnce==true
+@disableInteraction
+Arion: Parece que a�n est� cerrada
+Arion: Pero... esto no es un juego. �La fuerzo y me voy!
+@wait 1
+Arion: Di que s� Arion, pensando con l�gica, vamos a ver...
+@hide Dialogue
+@goto Pereza_Dialogue2-Part1
+@elseif Basement_hasExaminedDoor==true&&Pereza_hasSpokenTwice==true
+@disableInteraction
+Arion: Vale, eso ha sido algo extra�o
+Arion: Es como si hubiera tratado de... �retenerme?
+Arion: No entiendo ese �mpetu suyo de que me quedara aqu�, as� de la nada...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Basement_hasExaminedDoor==true&&Pereza_hasSpoken3Times==true&&Basement_hasExaminedPhoto3Times==false
+@disableInteraction
+Arion: Hmm, cre�a que estaba cerrada.
+Arion: Bueno, descubramos de qu� va todo �sto
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm sotanocortado fade:1
+@wait 1
+@loadScene HallScene
+@goto Hall_IntroScript
+@stop
+@elseIf Basement_hasExaminedDoor==true&&Pereza_hasSpoken3Times==true&&Basement_hasExaminedPhoto3Times==true
+@disableInteraction
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@wait 0.5
+@loadScene HallScene
+@enableObject objectName:Candado1
+@enableObject objectName:Candado2
+@disableObject objectName:Candado4
+@save
+La partida se ha guardado
+@hide Dialogue
+@bgm pasillocortado volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@enableInteraction
+@stop
+@else
+@disableInteraction
+La puerta sigue cerrada a cal y canto
+@hide Dialogue
+@enableInteraction
+@disableObject objectName:Puerta4
+@stop
+@endif
+@stop

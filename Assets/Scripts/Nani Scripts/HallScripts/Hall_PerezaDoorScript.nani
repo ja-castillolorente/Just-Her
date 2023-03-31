@@ -1,0 +1,50 @@
+@if Lujuria_hasSpokenOnce==false&&Ira_hasSpoken3Times==false
+@disableInteraction
+Arion: �Pero qu�?
+Arion: �sta puerta es la del s�tano, �por qu� se ha cerrado?
+Arion: Qu� extra�o...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Lujuria_hasSpokenOnce==false&&Ira_hasSpoken3Times==true
+@disableInteraction
+Arion: Me pregunto qu� estar� haciendo Pereza
+@printer PerezaPrinter
+Pereza: D�jame descansar...
+@printer Dialogue
+Arion: �En serio?
+Arion: Hay que joderse...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Lujuria_hasSpokenOnce==true&&Basement_hasExaminedPhoto3Times==false
+@disableInteraction
+Arion: Parece ser que es por aqu�...
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene BasementScene
+@bgm sotanocortado volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@printer PerezaPrinter
+@char Pereza.Default time:1
+Pereza: Dije que no molestaras... ¿A qué vienes?
+@printer Dialogue
+Arion: Vengo a por la llave
+@char Pereza.Bostezando time:1
+@printer PerezaPrinter
+Pereza: Ya veo...
+Pereza: Buena suerte y no hagas mucho ruido...
+@hide Pereza time:1
+@printer Dialogue
+@enableInteraction
+@stop
+@else
+@disableInteraction
+Arion: No, debo de solucionar ésto ahora mismo
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

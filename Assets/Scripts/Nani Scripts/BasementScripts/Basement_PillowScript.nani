@@ -1,0 +1,35 @@
+@if Basement_hasExaminedPillow==false
+@disableInteraction
+???: Este sof� parece realmente c�modo...
+???: �Deber�a descansar un rato?
+@choice Claro goto:.Claro
+@choice No goto:.No
+@stop
+# Claro
+???: Bueno, no creo que por relajarme un momento ocurra algo
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@wait 1
+5 minutos despu�s...
+@fadeIn objectName:BlackScreen
+@wait 1
+@hide Dialogue
+@set Basement_hasExaminedPillow=true
+@set Basement_clickedObjects=Basement_clickedObjects-1
+@enableInteraction
+@stop
+# No
+???: No creo que sea buen momento para ello...
+@hide Dialogue
+@set Basement_hasExaminedPillow=true
+@set Basement_clickedObjects=Basement_clickedObjects-1
+@enableInteraction
+@stop
+@elseif Basement_hasExaminedPillow==true
+@disableInteraction
+???: Creo que debo seguir buscando, no hay tiempo que perder� 
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

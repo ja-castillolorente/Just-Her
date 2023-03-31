@@ -1,0 +1,13 @@
+Arion: Creo que ya voy comprendiendo todo �sto.
+Arion: Realmente �sta es la taberna donde mi padre trabajaba. Ahora está todo más claro
+Arion: Mi padre� �Por qu� estar� esa loca de su lado?
+Arion: No tiene sentido pero�
+Arion: Necesito hacerla entrar en raz�n.
+Arion: Lo de mi madre no fue mi culpa. No se cuantas veces m�s tengo que decirlo�
+Arion: Y lo de mi padre� �A qu� se refiere exactamente?
+Arion: A�n estoy un poco exhausto de todo �sto...
+@hide Dialogue
+@set Ira_hasSpokenOnce=false
+@set Ira_hasSpokenTwice=true
+@enableInteraction
+@stop

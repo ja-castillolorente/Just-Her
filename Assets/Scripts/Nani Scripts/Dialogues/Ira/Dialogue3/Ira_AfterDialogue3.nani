@@ -1,0 +1,8 @@
+Arion: Espera... �Realmente ha acabado?
+Arion: A�n sigo aqu�
+Arion: Es como si... faltara algo m�s
+@hide Dialogue
+@set Ira_hasSpokenTwice=false
+@set Ira_hasSpoken3Times=true
+@enableInteraction
+@stop

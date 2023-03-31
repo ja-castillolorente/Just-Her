@@ -1,0 +1,19 @@
+@disableInteraction
+Arion: ¿Y ésto?
+Arion: Es como si mi cuerpo no respondiera ante mí
+“Todo fue culpa tuya”
+Arion: Esta nota...
+@printer EllaPrinter
+@fadeOut objectName:BlackScreen
+@wait 1
+???: Tú no tuviste la culpa de aquello...
+???: Los accidentes no se predicen...
+@printer Dialogue
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: Otra vez… ella…
+Arion: Es como si me hablara…
+Arion: No recuerdo ningún accidente… 
+@hide Dialogue
+@enableInteraction
+@stop

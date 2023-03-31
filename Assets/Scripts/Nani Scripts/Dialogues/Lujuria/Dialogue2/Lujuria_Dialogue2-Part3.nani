@@ -1,0 +1,73 @@
+# BranchA-B-A
+@printer Dialogue
+Arion: Ahora no tienes otra opci�n...
+@sfx Lujuria.Suspiro
+@char Lujuria.Default time:1
+@printer LujuriaPrinter
+Lujuria: Tienes raz�n...
+@sfx Lujuria.Risa
+@printer Dialogue
+Lujuria comienza a re�r
+@printer LujuriaPrinter
+Lujuria: Eres un completo in�til...
+Lujuria: �En serio pensabas que funcionar�a as�?
+Lujuria: D�jame re�rme...
+@printer Dialogue
+Arion: �Pe-pero entonces... �C�mo?
+@char Lujuria.Suspiro time:1
+@printer LujuriaPrinter
+Lujuria: Lo siento pero no doy segundas oportunidades, hasta la pr�xima cari�o...
+@hide Lujuria
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-B-B
+@printer Dialogue
+Arion: Ella es mi llave, desde que la conoc� fue la llave que abr�a las puertas del cambio
+Arion: Para dejar atr�s mi pasado... y enfocarme en el futuro
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+Lujuria: Pe-pero...
+Lujuria: �T� no tienes futuro!
+@printer Dialogue
+Arion: S� lo tengo...
+Arion: He de decir que cuando despert� aqu� no recordaba nada pero...
+Arion: Con ayuda de ella lo pude solucionar todo...
+Arion: Y tmabi�n me d� cuenta de lo que sent�a por ella en el mundo real...
+@sfx Lujuria.ChottoMate
+@printer LujuriaPrinter
+Lujuria: �N-no!
+Lujuria: �Espera!
+Lujuria: Yo s�lo quer�a pasar el rato contigo...
+@hide Lujuria
+@printer Dialogue
+Arion: Me he dado cuenta de que la quiero...
+@goto Ella_Dialogue2
+@stop
+# BranchB-A-A
+@char Lujuria.Enfadada time:1
+Lujuria: No tienes respeto alguno y creo que voy a tener que ense�arte...
+Lujuria: Cari�o
+@hide Lujuria
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@wait 1
+@loadScene GameOverScene
+@goto GameOverScript
+@stop
+# BranchB-A-B
+@printer Dialogue
+Arion: E-ella es la llave, es ella, �verdad?
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+Lujuria: �C�mo?
+Lujuria: ...
+Lujuria: No importa...
+Lujuria: Tienes la llave, s�, pero no tienes ni idea de c�mo utilizarla
+@choice "Ponerse el colgante" goto:Lujuria_Dialogue2-Part4.BranchB-A-B-A
+@choice "Sincerarse sobre ella" goto:Lujuria_Dialogue2-Part4.BranchB-A-B-B
+@stop
+@stop

@@ -1,0 +1,24 @@
+@fadeOut objectName:BlackScreen
+@wait 1
+Arion: �D-d�nde estoy?
+Arion: Est� muy oscuro...
+Arion: No puedo moverme...
+@printer EllaPrinter
+Ella: ... �Arion?
+Ella: Por fin has vuelto...
+@printer Dialogue
+En este mundo existe algo que nunca nadie vi�
+Es algo muy amable y dulce
+Si alguien lo viera alguna vez, seguramente querr�a volver a verlo
+Por eso nunca nadie lo ve, por eso el mundo elige esconderlo, para que sea dif�cil obtenerlo
+Pero un d�a alguien lo encontrar�...
+Y ese alguien ser� qui�n estaba destinado a hacerlo...
+Porque as� deber�a ser...
+El amor...
+@hide Dialogue
+@fadeOut objectName:WhiteScreen
+@stopBgm  fade:1
+@fadeIn objectName:BlackScreen
+@wait 1
+@goto VictoryScript
+@stop

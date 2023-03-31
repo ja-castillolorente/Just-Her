@@ -1,0 +1,26 @@
+@if Bath_hasTakenPendant==false
+@disableInteraction
+Arion: Cerrada, qu� novedad...
+Arion: Es como una trampa, una vez entras... no sales
+@hide Dialogue
+@enableInteraction
+@stop
+@disableInteraction
+@elseIf Bath_hasTakenPendant==true
+Arion: No puede ser...
+Arion: Siempre he tenido que encontrar la clave en la misma zona, pero no tiene por qu� ser as�...
+Arion: Ella...
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene HallScene
+@enableObject objectName:Candado4
+@disableObject objectName:Candado1
+@disableObject objectName:Candado2
+@bgm pasillocortado volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@enableInteraction
+@stop
+@endIf
+@stop

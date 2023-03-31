@@ -1,0 +1,51 @@
+@if Pub_hasExaminedSymbol==false
+@disableInteraction
+Arion: ¿Y ésto? Es como el del sótano…
+Arion: ¿Hola? ¿Pereza?
+@hide Dialogue
+@goto Ira_Dialogue1-Part1
+@elseif Ira_hasSpokenOnce==true&&Pub_hasSeenPubFlashback==false
+@disableInteraction
+No lo mereces, no lo mereces, no lo mereces...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Pub_hasSeenPubFlashback==true&&Ira_hasSpokenOnce==true
+@disableInteraction
+@fadeOut objectName:BlackScreen
+@wait 1
+@printer EllaPrinter
+Tienes que superar aquello… Solo intentaste ayudarla…
+Estaba enferma y ella no podía ni cocinar…
+Tienes que superar aquello… Solo intentaste ayudarla…
+Yo sé que tienes buen alma…
+Confío en tí...
+@printer Dialogue
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: No parece como si me hablara a mí directamente…
+Arion: Pero ya voy comprendiendo todo ésto…  
+@goto Ira_Dialogue2-Part1
+@stop
+@elseif Kitchen_hasSeenKitchenFlashback==true&&Ira_hasSpokenTwice==true
+@disableInteraction
+Arion: ¿Ira? ¿Dónde estás?
+@goto Ira_Dialogue3-Part1
+@stop
+@elseif Pub_hasExaminedSymbol==true&&Ira_hasSpoken3Times==true
+@disableInteraction
+@printer IraPrinter
+Ira: Adelante, ya sólo te queda un escalón
+Arion: ¿Un escalón?
+Arion: No entiendo ¿Es que hay otro pecado más?
+@printer Dialogue
+@enableInteraction
+@stop
+@else
+@disableInteraction
+Arion toca el símbolo pero nadie aparece
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

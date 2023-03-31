@@ -1,0 +1,80 @@
+; Localization script for `Lujuria_Dialogue1-Part1`
+
+# a72a5065
+; ???: Por fin tenemos el placer de conocernos... Arion.
+
+# 61848962
+; Arion: Pens� que no aparecer�as... Gula.
+Arion: Pensé que no aparecerías... Gula.
+# 51201a0a
+; ???: �Gula?
+???: ¿Gula?
+# 535fa411
+; Arion: Hmmm... S�, claro, eso eres t�, �no?
+Arion: Hmmm... Sí, claro, eres tú, ¿no?
+# ee63b1bc
+; ???: Realmente eres muy in�til...
+???: ¿Cómo me puedes comparar con ella? Realmente eres muy inútil...
+# 38f612bc
+; Lujuria: Soy tu lujuria, y siento decirte cari�o que tu camino acaba aqu�
+Lujuria: Soy tu lujuria, y siento decirte cariño que tu camino acaba aquí.
+# 685ae48f
+; Arion: Ya he vivido �sto dos veces anteriormente
+Arion: Ya he vivido ésto dos veces anteriormente.
+# 3aa4fc73
+; Arion: Simplemente dime qu� debo hacer para contentarte
+Arion: Simplemente dime qué debo hacer para contentarte...
+# a65bcfaa
+; Lujuria: �sto no funciona as�, hay una manera de que puedas salvarte
+Lujuria: Ésto no funciona así, pero hay una manera de que puedas salvarte.
+# 966dc55d
+; Lujuria: Pero aunque hayas conseguido llegar hasta aqu� no eres capaz de aceptar lo que est� ante tus ojos...
+Lujuria: Aunque hayas conseguido llegar hasta aquí no eres capaz de aceptar lo que está ante tus ojos...
+# dac4b497
+; Lujuria: Vas a quedarte conmigo durante mucho tiempo...
+
+# 4fe90477
+; Lujuria: Lo vas a pasar bien.
+
+# ae5fa173
+; @choice "�Te refieres a lo de mi madre?" goto:.BranchA
+@choice "¿Te refieres a lo de mi madre?" goto:.BranchA
+# a3066593
+; @choice "No voy a quedarme contigo." goto:.BranchB
+
+# b02e0337
+; Lujuria: Claro que no, todo ello ha sido aceptado y superado.
+
+# 37a00915
+; Lujuria: �Ves? No puedes hacer nada, ac�ptalo y qu�date conmigo...
+Lujuria: ¿Ves? No puedes hacer nada, acéptalo y quádate conmigo...
+# b9ae46a9
+; @choice "Eres muy repetitiva." goto:Lujuria_Dialogue1-Part2.BranchA-A
+
+# cb161bb1
+; @choice "Tengo algo m�s importante que hacer" goto:Lujuria_Dialogue1-Part2.BranchA-B
+@choice "Tengo algo más importante que hacer" goto:Lujuria_Dialogue1-Part2.BranchA-B
+# c52c0d90
+; Lujuria: A veces eres muy hiriente, cari�o...
+Lujuria: A veces eres muy hiriente, cariño...
+# 29b8ee7a
+; Lujuria: No creo que haya otra cosa mejor que estar conmigo, �no crees?
+Lujuria: No creo que haya otra cosa mejor que estar conmigo, ¿no crees?
+# 1cf2499c
+; Arion: Si algo he aprendido con las otras dos es no fiarme en ning�n momento, en cualquier momento podr�a pasar algo inesperado...
+Arion: Si algo he aprendido con las otras dos es no fiarme en ningún momento, en cualquier momento podría pasar algo inesperado...
+# 1f654828
+; Lujuria: �Acaso... tienes miedo?
+Lujuria: ¿Acaso... tienes miedo?
+# 8a8778ab
+; Lujuria: Oh, vamos, no te har� nada malo...
+Lujuria: Oh, vamos, no te haré nada malo...
+# 180a32b
+; Lujuria: S�lo vamos a pasar un buen rato...
+Lujuria: Sólo vamos a pasar un buen rato...
+# d4569492
+; @choice "�Qu� haremos?" goto:Lujuria_Dialogue1-Part2.BranchB-A
+@choice "¿Qué haremos?" goto:Lujuria_Dialogue1-Part2.BranchB-A
+# cb161bb1
+; @choice "Tengo algo m�s importante que hacer" goto:Lujuria_Dialogue1-Part2.BranchA-B
+@choice "Tengo algo más importante que hacer." goto:Lujuria_Dialogue1-Part2.BranchA-B

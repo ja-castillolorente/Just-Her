@@ -1,0 +1,33 @@
+@if LoveRoom_hasEnteredBath==false
+@disableInteraction
+Arion: Parece que sale algo de vapor por ah�...
+Arion: Echar� un vistazo
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene BathroomScene
+@saveSceneInfo
+@bgm baño volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: Parece ser un gran ba�o...
+Arion: Desprende el mismo olor de antes...
+@set LoveRoom_hasEnteredBath=true
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf LoveRoom_hasEnteredBath==true
+@disableInteraction
+Arion: Entrar� al ba�o de nuevo
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene BathroomScene
+@loadObjects
+@bgm baño volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@enableInteraction
+@stop
+@endIf
+@stop

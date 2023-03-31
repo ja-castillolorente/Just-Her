@@ -1,0 +1,55 @@
+# BranchA-A
+@sfx Ira.Queja volume:0.1
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: Tienes agallas... pero yo no soy tan buena como Pereza...
+@printer Dialogue
+Arion: No tengo tiempo para estupideces, ¿qué ocurre aquí?
+@printer IraPrinter
+???:  ¿Ahora quieres hablar? Qué indeciso
+???: Pensé que me golpearías o algo por el estilo...
+???: En fin, ya tendremos tiempo de hablar...
+???: ¡Literalmente una vida!
+@hide Ira time:1
+@printer Dialogue
+Arion: Una vida...
+Arion: Aún no comprendo del todo la situación, todo me da vueltas...
+Arion: Puede que ella tenga una respuesta a ésto 
+@hide Dialogue
+@set Ira_hasSpokenOnce=true
+@set Pub_hasExaminedSymbol=true
+@enableInteraction
+@stop
+# BranchA-B
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: Preguntas demasiado, me estás hartando... 
+???: Pens� que me dar�as m�s juego, peque�o par�sito.
+@choice "Quiz�s t� me aburres a m�... Mira, no sé que ocurre aquí, no vas a conseguir nada" goto:Ira_Dialogue1-Part3.BranchA-B-A
+@choice "�Qu� es lo que quieres? ¿Quién te crees que eres para hablarme así? ¿Qué es lo que sabes?" goto:Ira_Dialogue1-Part3.BranchA-B-B
+@stop
+# BranchB-A
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+???: �No te acuerdas? Fue incre�ble cuando cocinamos para mam� �S�! Pero al final se quem� la comida, una pena...
+@choice "Creo que voy comprendiendo todo... aún así, ella no piensa así" goto:Ira_Dialogue1-Part3.BranchB-A-A
+@choice "Yo no hice nada... No recuerdo nada de ello..." goto:Ira_Dialogue1-Part3.BranchB-A-B
+@stop
+# BranchB-B
+@sfx Ira.Risa volume:0.1
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: Qué pena, debería refrescarte la memoria... 
+???: O mejor no, sería muy sencillo así
+@printer Dialogue
+Arion: ¿Cómo te atreves a hablar así?
+Arion: Realmente eres diferente a Pereza...
+Arion: ¡Al menos ella estaba dispuesta a hablar!
+@printer IraPrinter
+???: Porque sé lo que hiciste
+???: Lo sé todo sobre tí...
+???: Y te arrepentirás...
+@hide Ira time:1
+@printer Dialogue
+Arion: ¿Todo?
+Arion: Necesito encontrar más información, quizá ella pueda ayudarme
+@set Ira_hasSpokenOnce=true
+@set Pub_hasExaminedSymbol=true
+@enableInteraction
+@stop

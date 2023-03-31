@@ -1,0 +1,53 @@
+@printer IraPrinter
+@sfx Ira.Suspiro volume:0.1
+@char Ira.Silueta pos:"59, 25, -5.4" time:1
+Ira: Ya no s� qu� hacer contigo... Me confundes...
+@char Ira.Default pos:"59, 25, -5.4" time:1
+Ira: No era �sto lo que ten�a en mente 
+Ira: �Qu� es lo que pretendes hacer con todo �sto?
+Ira: Se supone que era yo la que tendr�a que producir esos sentimientos...
+Ira: Me est�s hartando...
+@choice "Lo �nico que pretendo es que volvamos a ser un todo. Te necesito para cambiar, a t�, ahora m�s que nunca. Y lo sabes... en el fondo lo sabes, sabes que podemos..." goto:.BranchA
+@choice "Afrontar la realidad es duro, pero es lo que toca. Creo que padre no escogi� bien el camino a seguir..." goto:.BranchB
+@stop
+# BranchA
+@sfx Ira.Hmm volume:0.1
+@char Ira.Pensativa pos:"59, 25, -5.4" time:1
+Ira: Pero... �por qu�?
+Ira: N-no hay esperanzas de cambiar...
+Ira: Nadie nos la ha ofrecido nunca...
+Ira: Nadie...
+@printer Dialogue
+Arion: Por ella. 
+Arion: Porque la necesitamos, tanto t� como yo la necesitamos.
+Arion: Ella vio en nosotros lo que nunca nadie vio, al igual que mam�... 
+Arion: Porque creo que hay una peque�a luz al final del t�nel, a�n hay esperanza... 
+Arion: Podemos cambiar, juntos...
+@printer IraPrinter
+Ira: ¿Realmente crees eso?
+Ira: Creo... que voy entendiendo a Pereza
+@printer Dialogue
+Arion: Luchemos juntos, con espíritu
+@char Ira.Alegre pos:"59, 25, -5.4" time:1
+@printer IraPrinter
+Ira: Gracias.
+Ira: De verdad, gracias por todo...
+Ira: Por mucho que lo intentemos seguir�s siendo un peque�o in�til pero...
+Ira: A�n as�, si podemos lograrlo, me vale.
+Ira: Gracias... Arion.
+@hide Ira time:1
+@printer Dialogue
+@goto Ira_AfterDialogue3
+@stop
+# BranchB
+@sfx Ira.Hmm volume:0.1
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:Ira,5,0.1,0,0.25,0,true,false
+Ira: �Y t� que sabes de afrontar realidades?
+Ira: Hu�ste de todo, dejaste todas nuestras esperanzas atr�s porque eres un cobarde, un in�til frustrado por dentro.
+Ira: Padre opt� por ese camino por tu culpa... Porque nunca te desearon...
+Ira: Y porque nunca tendr�s un futuro mejor...
+Ira: Quiz�s deber�as replantear tus palabras...
+@choice "No desv�es el tema con esas palabras. Tienes que aceptar que no pudimos hacer nada al respecto. Ellos me obligaban ¡No había otra opción!" goto:Ira_Dialogue3-Part2.BranchB-A
+@choice "Eso no es cierto, s�lo padre nos despreciaba. Mam� nos acept� desde el primer momento" goto:Ira_Dialogue3-Part2.BranchB-B
+@stop

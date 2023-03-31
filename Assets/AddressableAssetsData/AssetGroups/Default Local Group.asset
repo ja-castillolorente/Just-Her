@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2821fd45d38b04443a08c9b3373e421f
+  m_SerializeEntries:
+  - m_GUID: 01b4344b3c5ee9949a381498f1e3e834
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue1/Ira_Dialogue1-Part2.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 08adeaf82263bef4e8f83e9f06289ff7
+    m_Address: Assets/Scripts/Nani Scripts/Pereza_StageIntroScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 177078a5f2928214883602164ba0d191
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Pereza/Pereza_Dialogue3-Part1.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 20bdec4fb5324264783b70e73a603340
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Pereza/Pereza_Dialogue1-Part1.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 41c753844707b3246935acad1126dce9
+    m_Address: Assets/Scripts/Nani Scripts/PubScripts/InteractionScripts/LampScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 46c71c07b40688f4487870b4008d8766
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue2/Ira_AfterDialogue2.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 471f57cc510aba04d9d642173f15ab55
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue3/Ira_Dialogue3-Part2.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 55e62aa9007d63c409763a95b1db285b
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Pereza/Pereza_Dialogue2-Part1.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5757f3a20b7bcf441b466da6257cd33d
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue2/Ira_Dialogue2-Part3.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 5df52bd24482e5b4d8743018656b7a2a
+    m_Address: Assets/Scripts/Nani Scripts/MainMenuScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 6e41eb4a170dbe6498a9c44c9a2881df
+    m_Address: Assets/Scripts/Nani Scripts/SceneLoader.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7692c631926d209418878e0e295daadb
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue1/Ira_Dialogue1-Part3.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7cf8fa464280e4146b4607e1c1976597
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Pereza/Pereza_Dialogue3-Part2.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7f9d57ab0b0d88546b088cfaef17284d
+    m_Address: Assets/Scripts/Nani Scripts/PubScripts/InteractionScripts/PubToKitchen.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 897f02e488d68d6458b84d2a78df9a5b
+    m_Address: Assets/Scripts/Nani Scripts/GameOverScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8b1f3f7181fd5534bbe98db07edb7d7a
+    m_Address: Assets/Scripts/Nani Scripts/Ira_StageIntroScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 8b25e94ac7e7e604489dabdbab5218f0
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Pereza/Pereza_Dialogue2-Part2.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 917172bb22d00fb44a11e7b9030fd674
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Pereza/Pereza_AfterDialogue3.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9999dfae8da3af042bec99b494a2c17e
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue3/Ira_Dialogue3-Part1.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 9d84e97415706de42b3b7c046b1c5dde
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Pereza/Pereza_Dialogue1-Part2.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a7d48827294c9b64c8bb59e9930a913a
+    m_Address: Assets/Scripts/Nani Scripts/PubScripts/InteractionScripts/Pub_SymbolScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: a9c8eaba8e30fe143989f035bccdf85c
+    m_Address: Assets/Scripts/Nani Scripts/BasementScripts/WindowScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b1c52c10de95a3b499a410b67fe6aaa7
+    m_Address: Assets/Scripts/Nani Scripts/PubScripts/InteractionScripts/PubNoteScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b3df78ab9d8a94b41887be1c907e63a9
+    m_Address: Assets/Scripts/Nani Scripts/VictoryScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b474bbb2a5305334fbc046a5e744959b
+    m_Address: Assets/Scripts/Nani Scripts/PubScripts/InteractionScripts/BottleScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b52421a3b0c80ca4399304b9a378cfce
+    m_Address: Assets/Scripts/Nani Scripts/BasementScripts/BasementToHall.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b7479aae09733e747a845bf085c962c6
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue2/Ira_Dialogue2-Part2.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: c1745dcbad03c3b4eb97253b9e6b9e97
+    m_Address: Assets/Scripts/Nani Scripts/BasementScripts/PillowScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: cec1b66b23949e248a0499d5473a296a
+    m_Address: Assets/Scripts/Nani Scripts/BasementScripts/BinScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d12e3bc4a210612478aab7b907a753c8
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue2/Ira_Dialogue2-Part4.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d496373d4bc3d8141924d7be267949fb
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue3/Ira_AfterDialogue3.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d6a8bc68d4080054db92dd070dcb5701
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue1/Ira_Dialogue1-Part1.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ea076cabf19d2e9438ff19f89a67e04c
+    m_Address: Assets/Scripts/Nani Scripts/PubScripts/InteractionScripts/PubPhotoScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: ea4afc2cb3513e440bc18ae0959e4575
+    m_Address: Assets/Scripts/Nani Scripts/Dialogues/Ira/Dialogue2/Ira_Dialogue2-Part1.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: eff7a06f6fbf5e347bd0b741d2c484d5
+    m_Address: Assets/Scripts/Nani Scripts/BasementScripts/BasementPhotoScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f15062485cc2722478da9805ab1d37fb
+    m_Address: Assets/Scripts/Nani Scripts/PubScripts/InteractionScripts/ChandelierScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f2a200a7b0fa80b40992bd20918b1cdb
+    m_Address: Assets/Scripts/Nani Scripts/BasementScripts/ComputerScript.nani
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 13dc593f0ea2d124198732d2f819d008, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 771b82122905e034ba491f07de5906c3, type: 2}
+    - {fileID: 11400000, guid: e84a19a882a306e44a221e5a2a6b8a8f, type: 2}

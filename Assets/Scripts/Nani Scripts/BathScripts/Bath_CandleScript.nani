@@ -1,0 +1,5 @@
+@disableInteraction
+Arion: Mi madre solía prender velas de vez en cuando...
+@hide Dialogue
+@enableInteraction
+@stop

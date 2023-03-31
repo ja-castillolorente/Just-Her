@@ -1,0 +1,50 @@
+# BranchB-A-B-A
+@printer Dialogue
+Arion: Ahora no tienes otra opci�n...
+@char Lujuria.Default time:1
+@printer LujuriaPrinter
+Lujuria: Tienes raz�n...
+@sfx Lujuria.Risa
+@printer Dialogue
+Lujuria comienza a re�r
+@printer LujuriaPrinter
+Lujuria: Eres un completo in�til...
+Lujuria: �En serio pensabas que funcionar�a as�?
+Lujuria: D�jame re�rme...
+@printer Dialogue
+Arion: �Pe-pero entonces... �C�mo?
+@char Lujuria.Suspiro time:1
+@printer LujuriaPrinter
+Lujuria: Lo siento pero no doy segundas oportunidades, hasta la pr�xima cari�o...
+@hide Lujuria
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchB-A-B-B
+@printer Dialogue
+Arion: Ella es mi llave, desde que la conoc� fue la llave que abr�a las puertas del cambio
+Arion: Para dejar atr�s mi pasado... y enfocarme en el futuro
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+Lujuria: Pe-pero...
+Lujuria: �T� no tienes futuro!
+@printer Dialogue
+Arion: S� lo tengo...
+Arion: He de decir que cuando despert� aqu� no recordaba nada pero...
+Arion: Con ayuda de ella lo pude solucionar todo...
+Arion: Y tmabi�n me d� cuenta de lo que sent�a por ella en el mundo real...
+@sfx Lujuria.ChottoMate
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+Lujuria: �N-no!
+Lujuria: �Espera!
+Lujuria: Yo s�lo quer�a pasar el rato contigo...
+@hide Lujuria
+@printer Dialogue
+Arion: Me he dado cuenta de que la quiero...
+@hide Dialogue
+@goto Ella_Dialogue2
+@stop

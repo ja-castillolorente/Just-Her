@@ -1,0 +1,21 @@
+@disableInteraction
+Arion: Realmente hay muchos tipos de alcohol aquí...
+@choice Inspeccionar goto:.Inspeccionar
+@choice Dejar goto:.Dejar
+@stop
+# Inspeccionar
+Arion: No reconozco ese tipo de alcohol, ni siquiera uno de toda la repisa.
+Arion: �Deber�a probarlo? Puede que as� lo reconozca...
+Arion: Hmm...
+Arion: No... Deber�a de alejarme de ello, no trae nada bueno...
+Arion: Me trae malos remordimientos pero, ¿por qué? 
+@hide Dialogue
+@enableInteraction
+@stop
+# Dejar
+*Arion se pone a canturrear*
+Arion: Alcohol, alcohol... Un gran traicionero...
+*Arion deja la botella en su sitio*
+@hide Dialogue
+@enableInteraction
+@stop

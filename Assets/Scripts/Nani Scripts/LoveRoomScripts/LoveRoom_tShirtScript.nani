@@ -1,0 +1,26 @@
+@if LoveRoom_hasExaminedShirt==false
+@disableInteraction
+Arion: Esta ropa...
+Arion toca levemente la prenda
+@printer EllaPrinter
+@fadeOut objectName:BlackScreen
+@wait 1
+???: S�los t� y yo...
+@printer Dialogue
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: Esa voz... �Ella de nuevo?
+Arion: Debo estar acerc�ndome a algo
+@set LoveRoom_hasExaminedShirt=true
+Arion: Pero... �A qu� se habr� referido?
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf LoveRoom_hasExaminedShirt==true
+@disableInteraction
+Arion: �Ser� de ella?
+@hide Dialogue
+@enableInteraction
+@stop
+@endIf
+@stop

@@ -1,0 +1,21 @@
+@disableInteraction
+Arion: �Un candelabro en un lugar como este?
+Arion: No tiene nada de especial a primera vista�
+Arion: Hmm� Ese olor me resulta familiar.
+Arion: �Ceniza?
+Arion: No tiene sentido...
+@choice Inspeccionar goto:.Inspeccionar
+@choice Dejar goto:.Dejar
+@stop
+# Inspeccionar
+Arion: Un simple candelabro, nada m�s.
+Arion: Pero ese olor...
+@hide Dialogue
+@enableInteraction
+@stop
+# Dejar
+Arion: Hmm...
+Arion: No importa, este lugar es extra�o
+@hide Dialogue
+@enableInteraction
+@stop

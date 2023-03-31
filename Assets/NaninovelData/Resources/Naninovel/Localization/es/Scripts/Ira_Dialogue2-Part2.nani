@@ -1,0 +1,69 @@
+; Localization script for `Ira_Dialogue2-Part2`
+
+# d7648148
+; ???: Obvio que s� todo sobre t�
+???: Obvio que sé todo sobre tí.
+
+# e0dee55d
+; Ira: Soy tu ira, tu frustraci�n... y no puedes arreglarlo todo tan f�cilmente.
+Ira: Soy tu ira, la cólera personificada... y no puedes arreglarlo todo tan fácilmente.
+
+# a5ecdedb
+; Ira: Fue tu error y debes arreglarlo.
+
+# 4a75dffa
+; Arion: Supongamos que llevas razón.
+
+# 7bf0b47a
+; Arion: ¿Cómo explicas entonces la intención del acto?
+
+# 771dbfa5
+; Ira: ¿Intención?
+
+# 2364bac1
+; @choice "Existe una palabra llamada intención, tiene significado y todo." goto:Ira_Dialogue2-Part3.BranchA-A-A
+
+# 9edb80b1
+; @choice "Ella también pensó que la intención era buena, ¿Recuerdas?" goto:Ira_Dialogue2-Part3.BranchA-A-B
+
+# d39bc9b
+; Ira: Soy tu ira, tu frustraci�n.
+Ira: Soy tu ira, tu frustración.
+
+# c4e84d64
+; Ira: Soy t� y tus pensamientos.
+Ira: Soy tú y tus pensamientos.
+
+# 65f1e06d
+; Ira: S� todo sobre t�, s� lo que le hiciste a mam�...
+Ira: Sé todo sobre tí, sé lo que le hiciste a mamá...
+
+# 393a3eeb
+; @choice "¡Deja de decir estupideces! ¡Acepta la realidad, como hizo ella!" goto:Ira_Dialogue2-Part3.BranchA-B-A
+
+# 429ba90c
+; @choice "Yo jamás haría daño a mi madre..." goto:Ira_Dialogue2-Part3.BranchA-B-B
+
+# 34862bd6
+; Ira: �S�! �Lo s� todo, peque�o pir�mano! Y pagar�s por ello...
+Ira: ¡Sí! ¡Lo sé todo, pequeño pirómano! Y pagarás por ello...
+
+# db5262f4
+; @choice "Lo sabr�s todo pero no entiendes nada. No todo es acierto y error. También hay intenciones y consecuencias..." goto:Ira_Dialogue2-Part3.BranchB-A-A
+@choice "Lo sabrás todo pero no entiendes nada. No todo es acierto y error. También hay intenciones y consecuencias..." goto:Ira_Dialogue2-Part3.BranchB-A-A
+
+# abf5841a
+; @choice "Si lo sabes todo o, más bien, eres yo, tú también eres una estúpida. No entiendo cómo no comprendes nada." goto:Ira_Dialogue2-Part3.BranchB-A-B
+
+# 1287a7ac
+; Ira: Creo que es obvio que a Pereza no le importas...
+
+# ba924ab1
+; Ira: Ésto es lo mejor para tí...
+
+# 2bfeab2
+; @choice "�Estoy harto de �sto! Sólo miras lo que te conviene, lo que te no frustra ¡Nunca miras lo demás!" goto:Ira_Dialogue1-Part3.BranchB-B-A
+@choice "¡Estoy harto de ésto! Sólo miras lo que te conviene, lo que te no frustra ¡Nunca miras lo demás!" goto:Ira_Dialogue1-Part3.BranchB-B-A
+
+# 28b3e877
+; @choice "Si es lo mejor para mí entonces creo que no lo entiendes. No te das cuenta de nada... no como ella." goto:Ira_Dialogue1-Part3.BranchB-B-B

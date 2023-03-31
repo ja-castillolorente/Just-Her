@@ -1,0 +1,136 @@
+; Localization script for `Pereza_Dialogue3-Part1`
+
+# ba8eef19
+; Chica: No soy un koala. Soy tu pecado capital, Pereza
+Chica: No soy un koala. Soy tu pecado capital, Pereza.
+
+# 68a47734
+; Arion: Ya, bueno...
+Arion: Ya, bueno...
+
+# 593ff8d
+; Arion: Espera, �c�mo?
+Arion: Espera, ¿cómo?
+
+# 18194bfd
+; Pereza: Cre�a... que ya lo supon�as...
+Pereza: Creía... que ya lo suponías...
+
+# b7a7469b
+; Arion: (�Por eso trataba de retenerme aqu�?)
+Arion: (¿Por eso trataba de retenerme aquí?)
+
+# 786094d8
+; Arion: (Supongo que ya nada de �sto tiene sentido, debo estar alerta ante todo)
+Arion: (Supongo que ya nada de ésto tiene sentido, debo estar alerta ante todo.)
+
+# 87a7c207
+; Arion: No entiendo tu manera de actuar, expl�came qu� ocurre aqu�
+Arion: No entiendo tu manera de actuar, explícame qué ocurre aquí.
+
+# 194d7ca2
+; Pereza: Qu� aburrido si te lo cuento yo...
+Pereza: Qué aburrido si te lo cuento yo...
+
+# 6c9acce0
+; Pereza: Deber�as descubrirlo t� mismo...
+Pereza: Deberías descubrirlo tú mismo...
+
+# c196a409
+; Pereza: Y no s�lo act�o de esa... manera
+Pereza: Y no sólo actúo de esa... manera.
+
+# 81819a05
+; @choice "�Es una especie de juicio final?" goto:.BranchA
+@choice "¿Es una especie de juicio final?" goto:.BranchA
+
+# 92cdb022
+; @choice "�Estoy muerto?" goto:.BranchB
+@choice "¿Estoy muerto?" goto:.BranchB
+
+# 4e944eee
+; Pereza: No est�s del todo... equivocado
+Pereza: No estás del todo... equivocado.
+
+# 28b60bb4
+; Pereza: Has cometido demasiadas... decisiones malas
+Pereza: Has cometido demasiadas... decisiones malas.
+
+# 2b05d94b
+; Pereza: No puedo decir m�s
+Pereza: No puedo decir más.
+
+# ca475060
+; Arion: �Malas decisiones? 
+Arion: ¿Malas decisiones?
+
+# 78b48b1f
+; Arion: Pero no recuerdo nada... �Qu� es lo que debo hacer?
+Arion: Pero no recuerdo nada... ¿Qué es lo que debo hacer?
+
+# 84880cf1
+; Pereza: Juega con lo que tienes...
+Pereza: Juega con lo que tienes...
+
+# c83a67a7
+; Pereza: �Por qu� deber�a dejarte ir? Supongo que soy demasiado... emp�tica
+Pereza: ¿Por qué debería dejarte ir? Supongo que soy demasiado... empática.
+
+# 5989e018
+; Pereza: Adem�s, estoy aburr�da de ti
+Pereza: Además, estoy aburrida de ti.
+
+# 2e5bd505
+; @choice "Tengo que cumplir con una promesa" goto:Pereza_Dialogue3-Part2.BranchA-B
+
+# 2a487fc1
+; @choice "No aguanto m�s aqu�" goto:Pereza_Dialogue3-Part2.BranchA-A
+@choice "No aguanto más aquí" goto:Pereza_Dialogue3-Part2.BranchA-A
+
+# 54f16011
+; Pereza: S�... y no
+Pereza: Sí... y no.
+
+# 918c8bbd
+; Pereza: Es complicado y cansado de explicar...
+Pereza: Es complicado y cansado de explicar...
+
+# c42cdc7a
+; Pereza: Simplemente... has cometido muchas malas decisiones
+Pereza: Simplemente... has cometido muchas malas decisiones.
+
+# 8e781afc
+; Arion: No comprendo, �qu� es lo que quieres de m� entonces?
+Arion: No comprendo, ¿Qué es lo que quieres de mí entonces?
+
+# 8698b009
+; Pereza: En verdad preferir�a descansar en vez de aguantar tus est�pidas preguntas...
+Pereza: En verdad preferiría descansar en vez de aguantar tus estúpidas preguntas...
+
+# b79446fe
+; Pereza: Pero en fin...
+Pereza: Pero en fin...
+
+# 37a9f5c1
+; Pereza: Supongo que no puedo cumplir un buen papel como villana... Me aburro muy r�pido...
+Pereza: Supongo que no puedo cumplir un buen papel como villana... Me aburro muy rápido...
+
+# 4d62c2c0
+; Arion: Dime entonces, �qu� es lo que debo hacer?
+Arion: Dime entonces, ¿Qué es lo que debo hacer?
+
+# 5f66a445
+; Pereza: Nada...
+Pereza: Nada...
+
+# ecf110c1
+; Pereza: S�lo dime... �Por qu� deber�a dejarte ir?
+Pereza: Sólo dime... ¿Por qué debería dejarte ir?
+
+# fdb4148b
+; @choice "Tengo que saber m�s de ella" goto:Pereza_Dialogue3-Part2.BranchA-A
+@choice "Tengo que saber más de ella" goto:Pereza_Dialogue3-Part2.BranchA-A
+
+# 99a4377c
+; @choice "No he entendido nada a�n, necesito salir de aqu�" goto:Pereza_Dialogue3-Part2.BranchA-B
+@choice "No he entendido nada aún, necesito salir de aquí" goto:Pereza_Dialogue3-Part2.BranchA-B

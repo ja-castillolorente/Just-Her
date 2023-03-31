@@ -1,0 +1,14 @@
+@fadeOut objectName:BlackScreen
+@wait 1
+@loadScene BasementScene
+@disableInteraction
+???: ¿Dónde... estoy?
+???: Todo me da vueltas, estoy un poco mareado...
+???: Aqu� parece que hay un interruptor
+@fadeIn objectName:BlackScreen
+@bgm sotanocortado volume:0.75 loop:true
+@wait 1
+???: No recuerdo haber llegado aqu� por mi cuenta
+@hide Dialogue
+@enableInteraction
+@stop

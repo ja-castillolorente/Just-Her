@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/InitialScene.unity
+    guid: 57d92385f3837d74d84912af89c001be
+  - enabled: 1
+    path: Assets/Scenes/TitleScene.unity
+    guid: 0262f21fe0cdf934a87809e609f6d4f5
+  - enabled: 1
+    path: Assets/Scenes/FillerScene.unity
+    guid: 42ece40a0e457324282b41d613c2f036
+  - enabled: 1
+    path: Assets/Scenes/BasementScene/BasementScene.unity
+    guid: ee608b1a8f23d8142997073c2116732f
+  - enabled: 1
+    path: Assets/Scenes/HallScene/HallScene.unity
+    guid: 787c32052b722d049be3c4c76a5e9fd9
+  - enabled: 1
+    path: Assets/Scenes/PubScene/PubScene.unity
+    guid: b9c1dcd5695d590468541fac8d9a90f0
+  - enabled: 1
+    path: Assets/Scenes/KitchenScene/KitchenScene.unity
+    guid: 6d7f6b4095d2a0740a970ef323b46969
+  - enabled: 1
+    path: Assets/Scenes/LoveRoomScene/LoveRoomScene.unity
+    guid: 7681d2ef6d0bb6b41913643e03c3629b
+  - enabled: 1
+    path: Assets/Scenes/BathroomScene/BathroomScene.unity
+    guid: edbb3faa188dd0c47a13d13af72a844f
+  - enabled: 1
+    path: Assets/Scenes/VictoryScene.unity
+    guid: 1ff7ed65799bb044889c251d9d33166c
+  - enabled: 1
+    path: Assets/Scenes/GameOverScene.unity
+    guid: 97032fb1f94db624ca41095e787c0f4f
+  - enabled: 0
+    path: Assets/Scenes/TestScene.unity
+    guid: aadcfcd1ce34dde41aa63a1d4cd42d29
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 41cc61269968d884880ea12e03f22ccb,
+      type: 2}

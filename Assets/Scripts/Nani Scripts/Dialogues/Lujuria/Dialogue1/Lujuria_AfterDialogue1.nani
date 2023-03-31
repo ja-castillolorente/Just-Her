@@ -1,0 +1,7 @@
+Arion: Una llave...
+Arion: No s� muy bien a qu� se refiere pero...
+Arion: Est� claro que �sta es mi chance
+@set Lujuria_hasSpokenOnce=true
+@hide Dialogue
+@enableInteraction
+@stop

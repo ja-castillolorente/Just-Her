@@ -1,0 +1,20 @@
+Arion: Unas cuantas barras de pan.
+Arion: Tiene sentido, es una cocina al fin y al cabo�
+Arion: No se cu�nto tiempo lleva aqu� pero tienen buena pinta.
+@choice Comer goto:.Comer
+@choice Dejar goto:.Dejar
+@stop
+# Comer
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@wait 2
+Arion: Tremendo. Ya solo falta un vasito de agua.
+@hide Dialogue
+@fadeIn objectName:BlackScreen
+@enableInteraction
+@stop
+# Dejar
+Arion: No puedo perder tiempo con �sto, debo investigar m�s� 
+@hide Dialogue
+@enableInteraction
+@stop

@@ -1,0 +1,27 @@
+@if LoveRoom_hasExaminedShirt==false&&Lujuria_hasSpokenOnce==false
+@disableInteraction
+Arion: Parece que no funciona, aunque es igual que los otros...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif LoveRoom_hasExaminedShirt==true&&Lujuria_hasSpokenOnce==false
+@disableInteraction
+Arion: �Hola?
+Arion: ...
+Arion: ...
+Arion: Parece que no funciona...
+Arion: �C�mo se supone que funciona �sto?
+Arion: �Abracadabra?
+Arion: Hmm...
+Arion: Hay que joderse...
+@hide Dialogue
+@goto Lujuria_Dialogue1-Part1
+@stop
+@elseIf LoveRoom_hasExaminedShirt==true&&Lujuria_hasSpokenOnce==true
+@disableInteraction
+Arion toca el símbolo pero no ocurre nada
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

@@ -1,0 +1,19 @@
+@saveSceneInfo
+@disableObject objectName:Candado1
+@bgm pasillocortado volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: �sto no parece mi casa ni mucho menos
+Arion: �Acaso no ha acabado a�n todo �sto?
+Arion: Tiene que ser una broma...
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@save
+@wait 1
+La partida se ha guardado
+Puedes cargar la partida en cualquier momento desde el men� de pausa
+Pulsa Esc para entrar al men� de pausa, luego pulsa en CARGAR PARTIDA y selecciona la partida que quieras cargar
+@hide Dialogue
+@fadeIn objectName:BlackScreen
+@enableInteraction
+@stop

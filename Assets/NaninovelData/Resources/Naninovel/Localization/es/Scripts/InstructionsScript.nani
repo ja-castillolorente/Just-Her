@@ -1,0 +1,49 @@
+; Localization script for `InstructionsScript`
+
+# abd9e6b2
+; En este juego, casi todo se hace con el clic izquierdo del rat�n
+En este juego, casi todo se hace con el clic izquierdo del ratón.
+# b58a9216
+; El jugador deber� interactuar con algunos objetos de los escenarios que visite
+El jugador deberá interactuar con algunos objetos de los escenarios que visite.
+# e4acad07
+; Los objetos que se pueden investigar tienen un aura blanca cuando el rat�n est� encima de �stos
+Los objetos que se pueden investigar tienen un aura blanca cuando el ratón está encima de éstos.
+# 5fb8aa09
+; Al clicar sobre estos objetos...
+
+# 86640cf9
+; ... la c�mara se acercar� y el personaje principal hablar� acerca del objeto
+... la cámara se acercará y el personaje principal hablará acerca del objeto.
+# 90715ead
+; En algunos casos, revisar algunos objetos har� que aparezca un personaje y d� lugar una conversaci�n
+En algunos casos, revisar algunos objetos hará que aparezca un personaje y dé lugar una conversación.
+# b603e781
+; En caso de que lo haya, el nombre del personaje que est� hablando en ese momento se indica en la parte superior del cuadro de di�logo
+En caso de que lo haya, el nombre del personaje que está hablando en ese momento se indica en la parte superior del cuadro de diálogo.
+# 1112e02e
+; Adem�s, el cuadro de di�logo tiene distintas apariencias dependiendo de qui�n est� hablando
+Además, el cuadro de diálogo tiene distintas apariencias dependiendo de quién está hablando.
+# 4c516f1a
+; Por ejemplo, este cuadro pertenece a un personaje...
+
+# 35dd761a
+; ... y �ste pertenece a otro
+... y éste pertenece a otro.
+# 48a1b5d2
+; Las conversaciones con los personajes son clave para avanzar en la historia
+
+# f793cd14
+; El jugador debe de estar atento a la conversaci�n y decidir qu� decir en cada momento para no enfadar al personaje
+El jugador debe de estar atento a la conversación y decidir qué decir en cada momento para no enfadar al personaje.
+# eea31f21
+; Si el jugador dice algo que no debe...
+
+# 3c81fffd
+; ... perder� la partida
+... perderá la partida.
+# 665944f1
+; �sta es la informaci�n que tienes por ahora, pero m�s tarde aprender�s m�s cosas
+Ésta es la información que tienes por ahora, pero más tarde aprenderás más cosas.
+# d05b0896
+; Buena suerte...

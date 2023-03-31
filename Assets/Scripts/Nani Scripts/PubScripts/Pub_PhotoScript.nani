@@ -1,0 +1,38 @@
+@if Ira_hasSpokenOnce==false
+@disableInteraction
+Arion: �Fuego?
+@choice Inspeccionar goto:.Inspeccionar
+@choice Dejar goto:.Dejar
+@stop
+# Inspeccionar
+Arion: �A qu� me recuerda esto? No estoy seguro�
+Arion: El olor a ceniza de este lugar es realmente agobiante�
+Arion: A�n me encuentro un poco mareado, quiz�s m�s tarde lo vea con mejor claridad�
+@hide Dialogue
+@enableInteraction
+@stop
+# Dejar
+Arion: A�n me encuentro un poco mareado, quiz�s m�s tarde lo vea con mejor claridad�
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Ira_hasSpokenOnce==true
+@disableInteraction
+@fadeOut objectName:BlackScreen
+@wait 1
+@printer EllaPrinter
+???: Tienes que superar aquello
+???: Sólo intentaste ayudarla, estaba enferma y ella no podía ni caminar
+???: Yo sé que tienes un buen corazón...
+???: Confío en ti...
+@printer Dialogue
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: No parece que me esté hablando directamente a ti...
+Arion:  Pero ya voy comprendiendo todo ésto...
+@set Pub_hasSeenPubFlashback=true
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

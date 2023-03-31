@@ -1,0 +1,73 @@
+; Localization script for `Lujuria_Dialogue2-Part1`
+
+# aff9d9d9
+; Arion: No s� d�nde est�s pero vas a a salir y vas a devolverme a mi mundo de una vez...
+Arion: No sé dónde estás pero vas a a salir y vas a devolverme a mi mundo de una vez...
+# 84a8d42c
+; Lujuria: �Y por qu� deber�a hacer tal cosa?
+Lujuria: ¿Y por qué debería hacer tal cosa?
+# e0997491
+; Lujuria: Que yo sepa no me has dado ning�n motivo para ello...
+Lujuria: Que yo sepa no me has dado ningún motivo para ello...
+# 844e801b
+; Lujuria: Y ya me estoy aburriendo...
+
+# 316c2533
+; Lujuria: �Qu� te parece si jugamos un rato?
+Lujuria: ¿Qué te parece si jugamos un rato?
+# dbdbfe0b
+; @choice "No perder� m�s tiempo" goto:.BranchA
+@choice "No perderé más tiempo." goto:.BranchA
+# 92b7c22
+; @choice �Jugar? goto:.BranchB
+@choice ¿Jugar? goto:.BranchB
+# e73fe9b0
+; Lujuria: No seas as�, cari�o
+Lujuria: No seas así, cariño.
+# 69a00854
+; Lujuria se acerca lentamente a Arion
+Lujuria se acerca lentamente a Arion.
+# 95d3a202
+; Lujuria: S�lo ser� un momento...
+Lujuria: Sólo será un momento...
+# d9dbf63f
+; Arion: N-no creo que deba perder m�s tiempo...
+Arion: N-no creo que deba perder más tiempo...
+# 6ecc4ee4
+; Lujuria acaricia el rostro de Arion
+Lujuria acaricia el rostro de Arion.
+# dcf5bd3a
+; Lujuria: No pienses en cosas sin importancia, cari�o
+Lujuria: No pienses en cosas sin importancia, cariño.
+# 1998e4c2
+; @choice ... goto:Lujuria_Dialogue2-Part2.BranchA-A
+
+# 33cef386
+; @choice "Usar el colgante" goto:Lujuria_Dialogue2-Part2.BranchA-B
+@choice "Usar el colgante." goto:Lujuria_Dialogue2-Part2.BranchA-B
+# e987ef3d
+; Lujuria: As� es...
+Lujuria: Así es...
+# 40768cf9
+; Lujuria: Simplemente quiero jugar contigo un momento...
+
+# 69a00854
+; Lujuria se acerca lentamente a Arion
+Lujuria se acerca lentamente a Arion.
+# d73d5e6a
+; Arion: N-no creo que �sto sea lo mejor...
+Arion: N-no creo que ésto sea lo mejor...
+# 6ecc4ee4
+; Lujuria acaricia el rostro de Arion
+Lujuria acaricia el rostro de Arion.
+# dcf5bd3a
+; Lujuria: No pienses en cosas sin importancia, cari�o
+Lujuria: No pienses en cosas sin importancia, cariño.
+# d89fa83
+; Arion: Pero... tengo que decirte algo...
+
+# 2b3d5e7f
+; @choice "No hay tiempo para tus juegos" goto:Lujuria_Dialogue2-Part2.BranchB-A
+@choice "No hay tiempo para tus juegos." goto:Lujuria_Dialogue2-Part2.BranchB-A
+# f7e6553a
+; @choice "Ella es la llave..." goto:Lujuria_Dialogue2-Part2.BranchB-B

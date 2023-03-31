@@ -1,0 +1,136 @@
+; Localization script for `Ira_Dialogue2-Part3`
+
+# dd7aae97
+; Ira: No intentes distraerme, no evadas lo que le causaste a mam� y a padre...
+Ira: No intentes distraerme, no evadas lo que le causaste a mamá y a padre...
+
+# bbda355b
+; Ira: �Todo es por tu culpa! �Pagar�s por ello!
+Ira: ¡Todo es por tu culpa! ¡Pagarás por ello!
+# 11d4e3c
+; Arion: ¿¡Por qu� lo mencionas!?
+Arion: ¿¡Por qué lo mencionas!?
+# b7b0521c
+; Ira: Intenci�n... Comida...
+Ira: Intención... Comida...
+
+# 96fbb1a4
+; Ira: �Pero c�mo explicas lo de padre?
+Ira: ¿Pero cómo explicas lo de padre?
+
+# 4904e4af
+; Arion: ¿Lo de padre? Parece que ésto aún no termina.
+
+# 546053a0
+; Arion: ¿Tan malas han sido las decisiones de mi vida?
+
+# 3062d002
+; Ira: ¡De-deja de intentar controlarme de una vez!
+
+# 89808ee8
+; Ira: ¡Me estás confundiendo! ¡Calla, calla!
+
+# 7154a2ad
+; @choice "Sólo era un acto para que se sintiera mejor..." goto:Ira_Dialogue2-Part4.BranchA-B-A-A
+
+# 570928e4
+; @choice "¡No te manipulo, inútil! Deberías de ver desde el inicio hasta el final, la intención y la consecuencia..." goto:Ira_Dialogue2-Part4.BranchA-B-A-B
+
+# 10167c8c
+; Ira: Eres un arrogante que s�lo piensa en s� mismo, en no salir mal parado.
+Ira: Eres un arrogante que sólo piensa en sí mismo, en no salir mal parado.
+
+# 3066c09
+; Ira: Pero aqu� es todo diferente, es hora de que pagues por ello.
+Ira: Pero aquí es todo diferente, es hora de que pagues por ello.
+
+# 929bac42
+; @choice "�Aceptar las consecuencias? No digas tonter�as." goto:Ira_Dialogue2-Part4.BranchA-B-B-A
+@choice "¿Aceptar las consecuencias? No digas tonterías." goto:Ira_Dialogue2-Part4.BranchA-B-B-A
+
+# 10d5eeed
+; @choice "Sabes que fue un accidente, intentemos salir de ésto." goto:Ira_Dialogue2-Part4.BranchA-B-B-B
+
+# 129070
+; Arion: No todo es acierto y error, tambi�n hay intenciones y consecuencias.
+Arion: No todo es acierto y error, también hay intenciones y consecuencias.
+# 6be812e8
+; Ira: No intentes controlarme con tus juegos mentales. Todo fue un error, !Un maravilloso error!
+
+# a33bc04e
+; @choice "T� misma acabas de decir que fue un error." goto:Ira_Dialogue2-Part4.BranchB-A-A-A
+@choice "Tú misma acabas de decir que fue un error." goto:Ira_Dialogue2-Part4.BranchB-A-A-A
+
+# 50ac76aa
+; @choice "Ni que fuera psicólogo para controlarte..." goto:Ira_Dialogue2-Part4.BranchB-A-A-B
+
+# 2c427d76
+; Arion: Si lo sabes todo o, m�s bien, eres yo, entonces eres una est�pida.
+Arion: Si lo sabes todo o más bien, eres yo, entonces eres una estúpida.
+
+# 61952498
+; Ira: �Te crees gracioso? Peque�o pir�mano, creo que no comprendes la situaci�n en la que te encuentras. 
+Ira: ¿Te crees gracioso? Pequeño pirámano, creo que no comprendes la situación en la que te encuentras.
+
+# a9d52c80
+; Ira: �Te arrepentir�s si continuas as�!
+Ira: ¡Te arrepentirás si continuas así!
+
+# 65c3aca8
+; Arion: Eres una ignorante por atender a la consecuencia y no a la intención.
+
+# f49ba91c
+; Ira: La intenci�n...
+Ira: La intención...
+
+# fd905e81
+; Ira: Pero sali� mal... Padre lo sabe...
+Ira: Pero salió mal... Padre lo sabe...
+
+# 4904e4af
+; Arion: ¿Lo de padre? Parece que ésto aún no termina.
+
+# 546053a0
+; Arion: ¿Tan malas han sido las decisiones de mi vida?
+
+# 86663aea
+; Ira: Crees que actuando as� tendr�s la oportunidad de salir de aqu� pero la respuesta es no...
+Ira: Crees que actuando así tendrás la oportunidad de salir de aquí pero la respuesta es no...
+
+# ed73674c
+; Ira: Eres el culpable...
+
+# 293d1b8
+; @choice "No fue mi culpa, no fue intencionado." goto:Ira_Dialogue2-Part4.BranchB-B-A-A
+
+# 7c1eca16
+; @choice "�Y exactamente de que soy culpable?" goto:Ira_Dialogue2-Part4.BranchB-B-A-B
+@choice "¿Y exactamente de que soy culpable?" goto:Ira_Dialogue2-Part4.BranchB-B-A-B
+
+# d148d113
+; Ira: �Darme cuenta?
+Ira: ¿Darme cuenta?
+
+# b5b90734
+; Ira: Yo lo vi todo... TODO...
+
+# 70e34168
+; Ira: Es culpa tuya, lo s�...
+Ira: Es culpa tuya, lo sé...
+
+# 5921d7e
+; Arion: No es culpa nuestra, ¿No recuerdas la intención?
+
+# fad7e0d6
+; Ira: Mam�...
+Ira: Mamá...
+
+# c5792ac4
+; Ira: �Eso no explica lo que le ocurri� a padre!
+Ira: ¡Eso no explica lo que le ocurrió a padre!
+
+# 4904e4af
+; Arion: ¿Lo de padre? Parece que ésto aún no termina.
+
+# 546053a0
+; Arion: ¿Tan malas han sido las decisiones de mi vida?

@@ -1,0 +1,7 @@
+; Localization script for `GameOverScript`
+
+# f22e4803
+; @choice  button:Naninovel/Buttons/NewGameButton pos:500,-100 handler:ButtonArea goto:.NewGame
+
+# a444b15c
+; @choice  button:Naninovel/Buttons/ExitButton pos:500,100 handler:ButtonArea goto:.Exit

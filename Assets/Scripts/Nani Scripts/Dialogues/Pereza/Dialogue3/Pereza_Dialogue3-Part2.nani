@@ -1,0 +1,21 @@
+# BranchA-A
+@sfx Pereza.Queja
+Pereza: Hmm... no me sirve...
+@char Pereza.Bostezando time:1
+Pereza: Creo que a�n no comprendes... nada...
+@hide Pereza
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+@stop
+# BranchA-B
+Pereza: Comprendo...
+Pereza: No me decepciones
+Pereza: Ahora d�jame descansar...
+@hide Pereza
+@hide PerezaPrinter
+@printer Dialogue
+@goto Pereza_AfterDialogue3
+@stop

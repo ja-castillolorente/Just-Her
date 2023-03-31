@@ -1,0 +1,27 @@
+@disableInteraction
+Arion: Esta flor...
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@wait 1
+@printer EllaPrinter
+???: Hoy llevé yo la flor a tu padre...
+???: Realmente lo hacías cada semana… Pero ahora lo tienes más complicado
+???: Espero y algún día regreses…
+???: Los médicos no tienen esperanza pero yo te esperaré cada minuto
+???: Si tan solo no te hubieras dejado manipular por esos pandilleros no tendrías que haber robado alcohol a tu padre por ello…
+???: Pero yo confío en tí, te ayudaré y juntos saldremos del bache
+???: Entiendo que te sientas mal por lo que hizo tu padre…
+???: Su suicidio no fue la mejor opción…
+???: Estoy segura de que me escuchas de alguna manera...
+@hide EllaPrinter
+@printer Dialogue
+@fadeIn objectName:BlackScreen
+@wait 1
+Arion: Así que por eso estoy aquí...
+Arion: Realmente soy un imbécil
+Arion: Terminemos con ésto
+@set Pub_hasSeenPubFlashback=false
+@set Kitchen_hasSeenKitchenFlashback=true
+@hide Dialogue
+@enableInteraction
+@stop

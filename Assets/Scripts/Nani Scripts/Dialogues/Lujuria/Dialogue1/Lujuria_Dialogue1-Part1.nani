@@ -1,0 +1,53 @@
+@printer LujuriaPrinter
+@sfx Lujuria.Risa
+???: Por fin tenemos el placer de conocernos... Arion
+@char Lujuria.Silueta time:1
+@printer Dialogue
+Arion: Pens� que no aparecer�as... Gula
+@char Lujuria.Pensativa time:1
+@printer LujuriaPrinter
+???: �Gula?
+@printer Dialogue
+Arion: Hmmm... S�, claro, eso eres t�, �no?
+@char Lujuria.Enfadada time:1
+@printer LujuriaPrinter
+@sfx Lujuria.Aho
+???: Realmente eres muy in�til...
+Lujuria: Soy tu lujuria, y siento decirte cari�o que tu camino acaba aqu�
+@printer Dialogue
+Arion: Ya he vivido �sto dos veces anteriormente
+Arion: Simplemente dime qu� debo hacer para contentarte
+@char Lujuria.Sexy time:1
+@printer LujuriaPrinter
+Lujuria: �sto no funciona as�, hay una manera de que puedas salvarte
+Lujuria: Pero aunque hayas conseguido llegar hasta aqu� no eres capaz de aceptar lo que est� ante tus ojos...
+Lujuria: Vas a quedarte conmigo durante mucho tiempo...
+Lujuria: Lo vas a pasar bien
+@choice "�Te refieres a lo de mi madre?" goto:.BranchA
+@choice "No voy a quedarme contigo" goto:.BranchB
+@stop
+# BranchA
+@char Lujuria.Default time:1
+Lujuria: Claro que no, todo ello ha sido aceptado y superado
+@char Lujuria.Sexy time:1
+Lujuria: �Ves? No puedes hacer nada, ac�ptalo y qu�date conmigo...
+@choice "Eres muy repetitiva" goto:Lujuria_Dialogue1-Part2.BranchA-A
+@choice "Tengo algo m�s importante que hacer" goto:Lujuria_Dialogue1-Part2.BranchA-B
+@stop
+# BranchB
+@sfx Lujuria.Suspiro
+@char Lujuria.Enfadada time:1
+Lujuria: A veces eres muy hiriente, cari�o...
+Lujuria: No creo que haya otra cosa mejor que estar conmigo, �no crees?
+@printer Dialogue
+Arion: Si algo he aprendido con las otras dos es no fiarme en ning�n momento, en cualquier momento podr�a pasar algo inesperado...
+@sfx Lujuria.AraAra
+@char Lujuria.Sexy time:1
+@printer LujuriaPrinter
+Lujuria: �Acaso... tienes miedo?
+Lujuria: Oh, vamos, no te har� nada malo...
+Lujuria: S�lo vamos a pasar un buen rato...
+@choice "�Qu� haremos?" goto:Lujuria_Dialogue1-Part2.BranchB-A
+; Esta elecci�n acaba en el mismo sitio que el camino A-B
+@choice "Tengo algo m�s importante que hacer" goto:Lujuria_Dialogue1-Part2.BranchA-B
+@stop

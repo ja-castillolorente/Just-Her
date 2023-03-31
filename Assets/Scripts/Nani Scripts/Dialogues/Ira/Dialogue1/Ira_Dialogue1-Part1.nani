@@ -1,0 +1,26 @@
+@printer IraPrinter
+@sfx Ira.Risa volume:0.1
+???: Vaya, vaya...
+@char Ira.Silueta pos:"59, 25, -5.4" time:1
+???: Mira a qui�n tenemos aqu�...
+@choice "Esa voz... Tú no eres Pereza ¿Quién ha dicho eso?" goto:.BranchA
+@choice "No decir nada" goto:.BranchB
+@stop
+# BranchA
+@char Ira.Enfadada pos:"59, 25, -5.4" time:1
+@spawn ShakeCharacter params:5,0.1,0,0.25,0,true,false
+???: ¿Qué ocurre, pequeño parásito? ¿No te sientes bien sin Pereza aquí?
+???: Yo soy la que manda aquí, recuérdalo
+???: Quizá deberíamos hacerte lo mismo que le hicimos a Mamá 
+???: ¡Sí, será divertido!
+@choice "�Par�sito? ¿A qué te refieres con todo ésto?" goto:Ira_Dialogue1-Part2.BranchA-A
+@choice "¿Lo que le hicimos a Mamá? ¿Quién eres? ¿Otro pecado de esos?" goto:Ira_Dialogue1-Part2.BranchA-B
+@stop
+# BranchB
+@sfx Ira.Hmm volume:0.75
+@char Ira.Default pos:"59, 25, -5.4" time:1
+???: Veo que el gato te comi� la lengua, como aquella vez, cuando todo era fuego. 
+???: �Fant�stico! �S�! Eso fue incre�ble, �no crees?
+@choice "�A qu� te refieres?" goto:Ira_Dialogue1-Part2.BranchB-A
+@choice "No comprendo... no recuerdo nada..." goto:Ira_Dialogue1-Part2.BranchB-B
+@stop

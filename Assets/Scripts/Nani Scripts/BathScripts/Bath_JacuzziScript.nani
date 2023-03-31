@@ -1,0 +1,30 @@
+@if Bath_hasExaminedJacuzzi==false
+@disableInteraction
+Arion: �Y si... me diera un ba�o?
+Arion: Nadie lo notar�a...
+Arion: Adem�s, llevo todo el d�a por aqu�...
+@choice "Tomar un descanso" goto:.ChoiceA
+@choice "No caer en la tentaci�n" goto:.ChoiceB
+@stop
+# ChoiceA
+(Arion sigui� autoconvenci�ndose hasta caer en la tentaci�n)
+@fadeOut objectName:BlackScreen
+@wait 1
+Arion: Ahh... �sto es muy relajante...
+@goto Bath_JacuzziScript_hasMetLujuria if:Lujuria_hasSpokenOnce==true
+@goto Bath_JacuzziScript_hasNotMetLujuria if:Lujuria_hasSpokenOnce==false
+# ChoiceB
+Arion: No creo que sea lo mejor
+@set Bath_hasExaminedJacuzzi=true
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf Bath_hasExaminedJacuzzi==true
+@disableInteraction
+Arion: Mejor dej�moslo estar...
+Arion: Prefiero acabar con todo �sto de una vez por todas
+@hide Dialogue
+@enableInteraction
+@stop
+@endIf
+@stop

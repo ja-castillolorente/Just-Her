@@ -1,0 +1,41 @@
+; Localization script for `Pub_PhotoScript`
+
+# ddb5ad44
+; Arion: �Fuego?
+Arion: ¿Fuego?
+
+# c1453c67
+; @choice Inspeccionar goto:.Inspeccionar
+
+# e0d218c6
+; @choice Dejar goto:.Dejar
+
+# fa92feb7
+; Arion: �A qu� me recuerda esto? No estoy seguro�
+Arion: ¿A qué me recuerda esto? No estoy seguro...
+
+# 525fe05a
+; Arion: El olor a ceniza de este lugar es realmente agobiante�
+Arion: El olor a ceniza de este lugar es realmente agobiante...
+
+# 844e317b
+; Arion: A�n me encuentro un poco mareado, quiz�s m�s tarde lo vea con mejor claridad�
+Arion: Aún me encuentro un poco mareado, quizás más tarde lo vea con mejor claridad...
+
+# db010498
+; ???: Tienes que superar aquello.
+
+# 436dbb98
+; ???: Sólo intentaste ayudarla, estaba enferma y ella no podía ni caminar.
+
+# 7f585406
+; ???: Yo sé que tienes un buen corazón...
+
+# 4f5647cc
+; ???: Confío en ti...
+
+# 42716c0c
+; Arion: No parece que me esté hablando directamente a ti...
+
+# f69e46a5
+; Arion:  Pero ya voy comprendiendo todo ésto...

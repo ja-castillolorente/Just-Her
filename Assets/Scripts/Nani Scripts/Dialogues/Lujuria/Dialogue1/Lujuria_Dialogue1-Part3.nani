@@ -1,0 +1,56 @@
+# BranchA-B-A
+@sfx Lujuria.AraAra
+@char Lujuria.Pensativa time:1
+Lujuria: Hmm... Parece que �sto se vuelve interesante...
+@printer Dialogue
+Arion: �Qu� es lo que quieres exactamente?
+@char Lujuria.Default time:1
+@printer LujuriaPrinter
+Lujuria: Necesitar�s descubrir la llave que abra la puerta hacia tu nueva libertad nuevamente
+@printer Dialogue
+Arion: �Una llave? �Literalmente?
+@char Lujuria.Sexy time:1
+@printer LujuriaPrinter
+Lujuria: Divi�rtete, cari�o...
+@hide Lujuria time:1
+@printer Dialogue
+@goto Lujuria_AfterDialogue1
+@stop
+# BranchA-B-B
+@sfx Lujuria.Risa
+@char Lujuria.Default time:1
+Lujuria: Por un momento pens� que encontrar�as el m�todo, pero veo que sigues siendo un completo in�til
+Lujuria: Mala suerte, cari�o
+@hide Lujuria time:1
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript
+# BranchB-A-A
+@sfx Lujuria.AraAra
+Lujuria: Hmm... Parece que �sto se vuelve interesante...
+@printer Dialogue
+Arion: �Qu� es lo que quieres exactamente?
+@char Lujuria.Default time:1
+@printer LujuriaPrinter
+Lujuria: Necesitar�s descubrir la llave que abra la puerta hacia tu nueva libertad nuevamente
+@printer Dialogue
+Arion: �Una llave? �Literalmente?
+@char Lujuria.Seductora time:1
+@printer LujuriaPrinter
+Lujuria: Divi�rtete, cari�o...
+@hide Lujuria time:1
+@printer Dialogue
+@goto Lujuria_AfterDialogue1
+@stop
+# BranchB-A-B
+@char Lujuria.Enfadada time:1
+Lujuria: Mira ni�o, ya me he hartado de que me faltes el respeto
+Lujuria: �Ahora s� que no volver�s nunca a ver el sol salir!
+@hide Lujuria time:1
+@printer Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene FillerScene
+@goto GameOverScript

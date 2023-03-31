@@ -1,0 +1,27 @@
+@if Lujuria_hasSpokenOnce==false
+@disableInteraction
+Arion: Es un colgante
+Arion: Tiene una bonita gema roja en el centro
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Lujuria_hasSpokenOnce==true
+@disableInteraction
+Arion: Una llave...
+Arion: Un momento...
+Ari�n agarra el colgante con decisi�n
+Arion: Este colgante...
+Arion:: Es el de la foto, �no?
+Arion: �Quiz�s �sto sea la llave! Mejor me la llevar� conmigo
+@fadeOut objectName:BlackScreen
+@wait 1
+@disableObject objectName:Colgante
+@fadeIn objectName:BlackScreen
+@wait 1
+@set Bath_hasTakenPendant=true
+@wait 0.5
+@hide Dialogue
+@enableInteraction
+@stop
+@endIf
+@stop

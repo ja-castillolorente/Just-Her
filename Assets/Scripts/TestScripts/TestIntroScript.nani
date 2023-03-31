@@ -1,0 +1,6 @@
+@loadScene TestScene
+@bgm salon volume:0.75 loop:true
+Pulsa en el cubo para guardar la partida
+@hide Dialogue
+@enableInteraction
+@stop

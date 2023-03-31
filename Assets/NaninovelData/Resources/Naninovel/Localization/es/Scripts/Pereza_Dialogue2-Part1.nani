@@ -1,0 +1,104 @@
+; Localization script for `Pereza_Dialogue2-Part1`
+
+# d68f5434
+; Chica: �Eh, t�!
+Chica: ¡Eh, tú!
+
+# fde74aab
+; Chica: �Qu� crees que... haces?
+Chica: ¿Qué crees que... haces?
+
+# 21e3a11e
+; Arion: Como veo que nadie viene, que t� no ayudas y que no encuentro mucha informaci�n aqu�, decid� simplemente forzar la puerta e irme...
+Arion: Como veo que nadie viene, que tú no ayudas y que no encuentro mucha información aquí, decidí simplemente forzar la puerta e irme...
+
+# 7f21f48a
+; Chica: Ay, Dios...
+Chica: Ay, Dios...
+
+# be18a7f5
+; Chica: Por lo menos eres sincero...
+Chica: Por lo menos eres sincero...
+
+# 3809e633
+; Chica: �Por qu� no te quedas un rato m�s aqu�?
+Chica: ¿Por qué no te quedas un rato más aquí?
+
+# a9a670db
+; Arion: (�C�mo? Ahora de la nada quiere que me quede...)
+Arion: (¿Cómo? Ahora de la nada quiere que me quede...)
+
+# f635b91f
+; Arion: (Antes me dijo que no la molestara m�s... No me cuadra mucho)
+Arion: (Antes me dijo que no la molestara más... No me cuadra mucho.)
+
+# d5f2b722
+; @choice "�Por qu� deber�a hacer eso?" goto:.BranchA
+@choice "¿Por qué debería hacer eso?" goto:.BranchA
+
+# da3fb929
+; @choice "Podr�a quedarme un poco, s�lo un poco..." goto:.BranchB
+@choice "Podría quedarme un poco, sólo un poco..." goto:.BranchB
+
+# fa6acb13
+; Chica: As�... podr�a hablarte m�s... de t�
+Chica: Así... podría hablarte más... de tí.
+
+# b832c2ea
+; Arion: Ahora s� quieres contestar mis preguntas
+Arion: Ahora sí quieres contestar mis preguntas.
+
+# 70f84a89
+; Arion: No s� a qu� est�s jugando pero no me f�o un pelo de t�
+Arion: No sé a qué estás jugando pero no me fío un pelo de tí.
+
+# a08df2fe
+; Chica: Podr�amos sentarnos un momento y empezar de cero... 
+Chica: Podríamos sentarnos un momento y empezar de cero...
+
+# 3e33964c
+; Chica: De cero...
+Chica: De cero...
+
+# f3ed2764
+; @choice "Est� bien s�lo por un momento" goto:Pereza_Dialogue2-Part2.BranchA-A
+@choice "Está bien sólo por un momento" goto:Pereza_Dialogue2-Part2.BranchA-A
+
+# 77bc499e
+; @choice "Debo continuar como sea" goto:Pereza_Dialogue2-Part2.BranchA-B
+@choice "Debo continuar como sea" goto:Pereza_Dialogue2-Part2.BranchA-B
+
+# f530afc1
+; Chica: Buen chico...
+Chica: Buen chico...
+
+# 52294751
+; Chica: Ven, si�ntate...
+Chica: Ven, siéntate...
+
+# 11f0db2
+; Arion: (No ha ocurrido nada sospechoso pero... me encuentro raro... como sin energ�a...)
+Arion: (No ha ocurrido nada sospechoso pero... me encuentro raro... como sin energía...)
+
+# ab94e5d8
+; Arion: Cla-claro... S�lo un momento...
+Arion: Cla-claro... Sólo un momento...
+
+# 3ef40d12
+; Chica: �Te ocurre algo? Te noto cansado...
+Chica: ¿Te ocurre algo? Te noto cansado...
+
+# 66a5c2be
+; Chica: Ser� mejor que descanses un poco antes de seguir tu duro viaje...
+Chica: Será mejor que descanses un poco antes de seguir tu duro viaje...
+
+# 6acabf88
+; (Las palabras resuenan con eco en la cabeza de Arion)
+(Las palabras resuenan con eco en la cabeza de Arion.)
+# 323f1fa6
+; @choice "Puede que tengas raz�n" goto:Pereza_Dialogue2-Part2.BranchA-A
+ @choice "Puede que tengas razón" goto:Pereza_Dialogue2-Part2.BranchA-A
+
+# c1ac38e8
+; @choice "Debo continuar, sea como sea" goto:Pereza_Dialogue2-Part2.BranchA-B
+@choice "Debo continuar, sea como sea" goto:Pereza_Dialogue2-Part2.BranchA-B

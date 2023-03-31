@@ -1,0 +1,22 @@
+@if LoveRoom_hasExaminedLongChair==false
+@disableInteraction
+Arion: No s� si realmente quiero tumbarme aqu�
+Arion: No... Bueno, s�
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@wait 1
+5 minutos despu�s...
+@fadeIn objectName:BlackScreen
+@wait 1
+@set LoveRoom_hasExaminedLongChair=true
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf LoveRoom_hasExaminedLongChair==true
+@disableInteraction
+Arion: No deber�a de perder m�s el tiempo
+@hide Dialogue
+@enableInteraction
+@stop
+@endIf
+@stop

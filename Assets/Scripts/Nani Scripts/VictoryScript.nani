@@ -1,0 +1,20 @@
+@loadScene VictoryScene
+@fadeIn objectName:WhiteScreen
+@wait 1
+@char SpecialSprites.DemoCompletada pos:"70, 40" scale:0.7
+@bgm ganar volume:0.75 loop:true
+@wait 1.5
+@choice  button:Naninovel/Buttons/NewGameButton pos:-500,-200 handler:ButtonArea goto:.NewGame
+@choice  button:Naninovel/Buttons/MainMenuButton pos:-500,-300 handler:ButtonArea goto:.MainMenu
+@stop
+# NewGame
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@resetValues
+@goto Pereza_StageIntroScript
+@stop
+# MainMenu
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@title
+@stop

@@ -1,0 +1,38 @@
+@if Ira_hasSpoken3Times==true&&Lujuria_hasSpokenOnce==false
+@disableInteraction
+Arion: Parece ser que la �nica puerta disponible es �sta
+Arion: �Pero por qu� hay tantas m�s?
+Arion: Supongo que los dem�s pecados est�n de vacaciones...
+Arion: En fin, entremos
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@goto Lujuria_StageIntroScript
+@stop
+@elseif Ira_hasSpoken3Times==true&&Lujuria_hasSpokenOnce==true&&Basement_hasExaminedPhoto3Times==false
+@disableInteraction
+Arion: Buscar� en otro sitio
+@hide Dialogue
+@enableInteraction
+@stop
+@elseIf Ira_hasSpoken3Times==true&&Lujuria_hasSpokenOnce==true&&Basement_hasExaminedPhoto3Times==true
+@disableInteraction
+Arion: ...
+Arion: Vamos allá...
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm  fade:1
+@loadScene LoveRoomScene
+@disableInteraction
+@bgm habitacionlujuria volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@goto Lujuria_Dialogue2-Part1
+@else
+@disableInteraction
+Arion: Por mucho que empuje, no se abre
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

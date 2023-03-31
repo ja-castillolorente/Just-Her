@@ -1,0 +1,16 @@
+@if LoveRoom_hasExaminedHandcuffs==false
+@disableInteraction
+Arion: Vale, creo que viendo �sto y... la habitaci�n en general me hago una idea de lo que me espera aqu�
+Arion: Espero acabar con �sto pronto...
+@set LoveRoom_hasExaminedHandcuffs=true
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif LoveRoom_hasExaminedHandcuffs==true
+@disableInteraction
+Arion: Nada importante por aqu�...
+@hide Dialogue
+@enableInteraction
+@stop
+@endIf
+@stop

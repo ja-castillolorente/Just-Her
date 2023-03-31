@@ -1,0 +1,129 @@
+; Localization script for `Pereza_Dialogue1-Part1`
+
+# 90a09d6e
+; Voz: Oye...
+Voz: Oye...
+
+# 4d48520f
+; Voz: �Qu� crees que haces?
+Voz: ¿Qué crees que haces?
+
+# 6815cf78
+; ???: �Qui-qui�n eres t�? �D-de d�nde has salido?
+???: ¿Qui-quién eres tú? ¿D-de dónde has salido?
+
+# b7ebcd19
+; Chica: Haces... demasiadas preguntas...
+Chica: Haces... demasiadas preguntas...
+
+# a6f4d671
+; ???: �Qu� es todo �sto? 
+???: ¿Qué es todo ésto?
+
+# de82c15c
+; ???:  Necesito que me ayudes, no s� qu� est� ocurriendo aqu�...
+???:  Necesito que me ayudes, no sé qué está ocurriendo aquí...
+
+# 50587275
+; Chica: A�n no he respondido a las anteriores y ya me est�s haciendo m�s preguntas...
+Chica: Aún no he respondido a las anteriores y ya me estés haciendo más preguntas...
+
+# 4b41619c
+; Chica: Oye chico... Dime una cosa...
+Chica: Oye chico... Dime una cosa...
+
+# 20af0e19
+; Chica: �Qu� diferencia hay... entre alguien que tiene una meta... y alguien que tira la toalla?
+Chica: ¿Qué diferencia hay... entre alguien que tiene una meta... y alguien que tira la toalla?
+
+# ecb62007
+; ???: (�A qu� vendr� �sto?)
+???: (¿A qué vendrá ésto?)
+
+# bb87dbad
+; ???: (A�n as� necesito su ayuda, pero no es tan f�cil dar una respuesta a esa pregunta de buenas a primeras...)
+???: (Aún así necesito su ayuda, pero no es tan fácil dar una respuesta a esa pregunta de buenas a primeras...)
+
+# a302c267
+; @choice Esp�ritu goto:.BranchA
+@choice Espíritu goto:.BranchA
+
+# 389d1717
+; @choice Ego�smo goto:.BranchB
+@choice Egoísmo goto:.BranchB
+
+# c6ed7a8e
+; ???: Es el esp�ritu, la mentalidad, todo lo que te permite superarte...
+???: Es el espíritu, la mentalidad, todo lo que te permite superarte...
+
+# daf80692
+; ???: Aunque es una buena opci�n, no todo el mundo tiene un buen esp�ritu...
+???: Aunque es una buena opción, no todo el mundo tiene un buen espíritu...
+
+# ccc1394e
+; Chica: �No tienes buen esp�ritu? �No... conf�as en t� mismo... Arion?
+Chica: ¿No tienes buen espíritu? ¿No... confías en tí mismo... Arion?
+
+# 571ea7b3
+; ???: (Arion...)
+???: (Arion...)
+
+# 6fe4bcee
+; ???: (Definitvamente soy yo...)
+???: (Definitvamente soy yo...)
+
+# a595dd34
+; Arion: (�Pero c�mo me conoce esta chica?)
+Arion: (¿Pero cómo me conoce esta chica?)
+
+# 7ad82964
+; Chica: �Nadie cree en t�, Arion?
+Chica: ¿Nadie cree en tí, Arion?
+
+# 69962e18
+; @choice "Hay alguien qu� conf�a en m�" goto:Pereza_Dialogue1-Part2.BranchA-A
+@choice "Hay alguien qué confía en mí" goto:Pereza_Dialogue1-Part2.BranchA-A
+
+# e182b280
+; @choice "Yo s�lo puedo con todo" goto:Pereza_Dialogue1-Part2.BranchA-B
+@choice "Yo sólo puedo con todo" goto:Pereza_Dialogue1-Part2.BranchA-B
+
+# a6b6c8a
+; Arion: El que tira la toalla es porque es ego�sta. S�lo piensa en s� mismo, en sus l�mites, y no en superarlos
+Arion: El que tira la toalla es porque es egoísta. Sólo piensa en sí mismo, en sus límites, y no en superarlos.
+
+# a85d2c6a
+; Arion: Todos pueden si quieren...
+Arion: Todos pueden si quieren...
+
+# 15ccd0d6
+; Chica: Entonces seg�n t� todo el mundo tiene las mismas oportunidades...
+Chica: Entonces según tú todo el mundo tiene las mismas oportunidades...
+
+# bac19f83
+; Chica: Es por ello que sigues aqu�...
+Chica: Es por ello que sigues aquí...
+
+# b736d4ea
+; Arion: �C�mo? No he dicho eso...
+Arion: ¿Cómo? No he dicho eso...
+
+# c0a5e94d
+; Chica: �T� has tenido las mismas oportunidades que todos?
+Chica: ¿Tú has tenido las mismas oportunidades que todos?
+
+# cb8c3746
+; Arion: N-no lo s�... No lo recuerdo con claridad
+Arion: N-no lo sé... No lo recuerdo con claridad.
+
+# 4c561b99
+; Chica: Pues entonces deber�as empezar por ah�... 
+Chica: Pues entonces deberías empezar por ahí...
+
+# d3bf3134
+; Chica: Tranquilo... tendr�s tiempo de reflexionar aqu�...
+Chica: Tranquilo... tendrás tiempo de reflexionar aquí...
+
+# c56c9209
+; Chica: Una eternidad...
+Chica: Una eternidad...

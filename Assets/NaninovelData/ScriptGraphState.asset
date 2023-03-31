@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98aa4b58b11e9d4ca9dd8a4bf7bb71d, type: 3}
+  m_Name: ScriptGraphState
+  m_EditorClassIdentifier: 
+  NodesState:
+  - ScriptName: MainMenuScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue1-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue1-Part2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue1-Part3
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue2-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue2-Part2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue2-Part3
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue2-Part4
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue3-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue3-Part2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_Dialogue3-Part3
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: GameOverScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_StageIntroScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: ChandelierScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: PubNoteScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: PubToKitchen
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: SymbolScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: PhotoScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BottleScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: LampScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Ira_AfterDialogue2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BreadScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: DrawersScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: GloveScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: KitchenNoteScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: FlowerScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: KitchenToPub
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: VictoryScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: TestScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BinScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: PillowScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: SceneLoader
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: ComputerScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BasementToHall
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: BasementPhotoScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue1-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue1-Part2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue2-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue2-Part2
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_Dialogue3-Part1
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_StageIntroScript
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN
+  - ScriptName: Pereza_DialogueChecker
+    Position:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: NaN
+      height: NaN

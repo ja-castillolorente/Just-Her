@@ -1,0 +1,114 @@
+; Localization script for `Ira_Dialogue3-Part1`
+
+# 40b9b9dd
+; Ira: Ya no s� qu� hacer contigo... Me confundes...
+Ira: Ya no sé qué hacer contigo... Me confundes...
+
+# 4d700d39
+; Ira: No era �sto lo que ten�a en mente. 
+Ira: No era ésto lo que tenía en mente.
+
+# 88893cb7
+; Ira: �Qu� es lo que pretendes hacer con todo �sto?
+Ira: ¿Qué es lo que pretendes hacer con todo ésto?
+
+# 37a2e140
+; Ira: Se supone que era yo la que tendr�a que producir esos sentimientos...
+Ira: Se supone que era yo la que tendría que producir esos sentimientos...
+
+# c21b23dc
+; Ira: Me est�s hartando...
+Ira: Me estás hartando...
+
+# 35121a69
+; @choice "Lo �nico que pretendo es que volvamos a ser un todo. Te necesito para cambiar, a t�, ahora m�s que nunca. Y lo sabes... en el fondo lo sabes, sabes que podemos..." goto:.BranchA
+@choice "Lo único que pretendo es que volvamos a ser un todo. Te necesito para cambiar, a tí, ahora más que nunca. Y lo sabes... en el fondo lo sabes, sabes que podemos..." goto:.BranchA
+
+# 1024841f
+; @choice "Afrontar la realidad es duro, pero es lo que toca. Creo que padre no escogi� bien el camino a seguir..." goto:.BranchB
+@choice "Afrontar la realidad es duro, pero es lo que toca. Creo que padre no escogió bien el camino a seguir..." goto:.BranchB
+
+# dbd5682f
+; Ira: Pero... �Por qu�?
+Ira: Pero... ¿Por qué?
+
+# bca3ad6
+; Ira: N-no hay esperanzas de cambiar...
+
+# d1e10777
+; Ira: Nadie nos la ha ofrecido nunca...
+
+# 107cad53
+; Ira: Nadie...
+
+# 96cbecc8
+; Arion: Por ella. 
+
+# 9a803bef
+; Arion: Porque la necesitamos, tanto t� como yo la necesitamos.
+Arion: Porque la necesitamos, tanto tú como yo la necesitamos.
+
+# f7c9e381
+; Arion: Ella vio en nosotros lo que nunca nadie vio, al igual que mam�... 
+Arion: Ella vio en nosotros lo que nunca nadie vio, al igual que mamá... 
+
+# 35a0cf1
+; Arion: Porque creo que hay una peque�a luz al final del t�nel, a�n hay esperanza... 
+Arion: Porque creo que hay una pequeña luz al final del túnel, aún hay esperanza... 
+
+# 47bf3128
+; Arion: Podemos cambiar, juntos...
+
+# 816e8be0
+; Ira: ¿Realmente crees eso?
+
+# aae02d63
+; Ira: Creo... que voy entendiendo a Pereza.
+
+# 20f512d1
+; Arion: Luchemos juntos, con espíritu.
+
+# 1bd7e64
+; Ira: Gracias.
+
+# 12cb06a9
+; Ira: De verdad, gracias por todo...
+
+# cb924d87
+; Ira: Por mucho que lo intentemos seguir�s siendo un peque�o in�til pero...
+Ira: Por mucho que lo intentemos seguirás siendo un pequeño inútil pero...
+
+# dee4e7d5
+; Ira: A�n as�, si podemos lograrlo, me vale.
+Ira: Aún así, si podemos lograrlo, me vale.
+
+# aca724c9
+; Ira: Gracias... Arion.
+
+# a1d8c45
+; Ira: �Y t� que sabes de afrontar realidades?
+Ira: ¿Y tú que sabes de afrontar realidades?
+
+# f6942878
+; Ira: Hu�ste de todo, dejaste todas nuestras esperanzas atr�s porque eres un cobarde, un in�til frustrado por dentro.
+Ira: Huíste de todo, dejaste todas nuestras esperanzas atrás porque eres un cobarde, un inútil frustrado por dentro.
+
+# c17d8b59
+; Ira: Padre opt� por ese camino por tu culpa... Porque nunca te desearon...
+Ira: Padre optó por ese camino por tu culpa... Porque nunca te desearon...
+
+# a8adb5d5
+; Ira: Y porque nunca tendr�s un futuro mejor...
+Ira: Y porque nunca tendrás un futuro mejor...
+
+# 985dccd6
+; Ira: Quiz�s deber�as replantear tus palabras...
+Ira: Quizás deberías replantear tus palabras...
+
+# 83b58bfd
+; @choice "No desv�es el tema con esas palabras. Tienes que aceptar que no pudimos hacer nada al respecto. Ellos me obligaban ¡No había otra opción!" goto:Ira_Dialogue3-Part2.BranchB-A
+@choice "No desvíes el tema con esas palabras. Tienes que aceptar que no pudimos hacer nada al respecto. Ellos me obligaban ¡No había otra opción!" goto:Ira_Dialogue3-Part2.BranchB-A
+
+# a28494e2
+; @choice "Eso no es cierto, s�lo padre nos despreciaba. Mam� nos acept� desde el primer momento." goto:Ira_Dialogue3-Part2.BranchB-B
+@choice "Eso no es cierto, sólo padre nos despreciaba. Mamá nos aceptó desde el primer momento." goto:Ira_Dialogue3-Part2.BranchB-B

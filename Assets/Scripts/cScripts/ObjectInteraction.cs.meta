@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e64a61f98dbf8184fa76a9a8d5430ad1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - magnifierTexture: {fileID: 2800000, guid: e93164b3d8be7c74fa1ea81baa02bac3, type: 3}
+  - pressedObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

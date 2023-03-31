@@ -1,0 +1,45 @@
+@if Basement_hasExaminedPhotoOnce==false&&Basement_hasExaminedSymbol==false
+@disableInteraction
+???: Es una foto de alguien
+???: Hay una chica, no s� qui�n es pero...
+???: �De qu� me suena su cara?
+@hide Dialogue
+@set Basement_hasExaminedPhotoOnce=true
+@set Basement_clickedObjects=Basement_clickedObjects-1;
+@enableInteraction
+@stop
+; @elseif Basement_hasExaminedPhotoOnce=true&&Pereza_hasSpokenTwice==false
+; @disableInteraction
+; ???: Su cara me sigue llamando la atención, no sé por qué...
+; @hide Dialogue
+; @enableInteraction
+; @stop
+@elseif Basement_hasExaminedPhotoOnce==true&&Pereza_hasSpokenOnce==true
+@disableInteraction
+???: Esta foto... �de qu� me suena?
+@fadeOut objectName:BlackScreen
+@wait 1
+@printer EllaPrinter
+Ten�amos una promesa...
+@printer Dialogue
+@fadeIn objectName:BlackScreen
+@wait 1
+???: Una promesa...
+???: Otra vez esa voz... Puede ser la chica de la foto...
+???: Tengo que salir de aqu� y descubrir qu� ocurre
+@hide Dialogue
+@set Basement_hasExaminedPhotoOnce=false
+@set Basement_hasExaminedPhotoTwice=true
+@enableInteraction
+@stop
+@elseif Pereza_hasSpoken3Times==true&&Bath_hasTakenPendant==true
+@goto Ella_Dialogue1
+@stop
+@else
+@disableInteraction
+Arion: Su cara me sigue llamando la atención, no sé por qué...
+@hide Dialogue
+@enableInteraction
+@stop
+@endif
+@stop

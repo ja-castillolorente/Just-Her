@@ -1,0 +1,32 @@
+@if Ira_hasSpoken3Times==false
+@disableInteraction
+Arion: Deber�a explorar m�s, este sitio me es familiar...
+@hide Dialogue
+@enableInteraction
+@stop
+@elseif Ira_hasSpoken3Times==true
+@disableInteraction
+Arion: Antes de salir debería coger algunas botellas
+Arion: Al fin y al cabo son grat...
+@printer IraPrinter
+Ira: ¡Vete de una vez si no quieres que me arrepienta!
+@printer Dialogue
+Arion: Bueno, tampoco te dejes llevar por la ira
+Arion: ...
+Arion: Mejor me voy...
+@hide Dialogue
+@fadeOut objectName:BlackScreen
+@stopBgm salon fade:1
+@loadScene HallScene
+@enableObject objectName:Candado1
+@disableObject objectName:Candado4
+La partida se ha guardado
+@hide Dialogue
+@save
+@bgm pasillocortado volume:0.75 loop:true
+@fadeIn objectName:BlackScreen
+@wait 1
+@enableInteraction
+@stop
+@endif
+@stop
